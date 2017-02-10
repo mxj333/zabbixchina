@@ -14,7 +14,7 @@
   * [1 Zabbix definitions](manual/concepts/definitions.md)
   * [2 Server](format/introduction.md)
   * [3 Agent](format/chapters.md)
-  * [Markdown](format/markdown.md)
+  * [4 Proxy](format/markdown.md)
   * [AsciiDoc](format/asciidoc.md)
   * [封面](format/cover.md)
   * [多語言版本](format/languages.md)
