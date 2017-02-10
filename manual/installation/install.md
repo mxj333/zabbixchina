@@ -2,7 +2,7 @@
 
 你可以通过源编译安装Zabbix的最新版。
 
-A step-by-step tutorial for installing Zabbix from the sources is provided here.
+本节是从源安装Zabbix的分步教程。
 
 #### 1 Installing Zabbix daemons {#installing_zabbix_daemons}
 
