@@ -18,12 +18,20 @@
   * [5 Java gateway](manual/concepts/java.md)
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
-* [3. Installation](https://www.zabbix.com/documentation/3.2/manual/installation)
+* [3. Installation](manual/installation/index.md)
+  * [1 Getting Zabbix](https://www.zabbix.com/documentation/3.2/manual/installation/getting_zabbix)
 
-  * [使用 GIT 更新](build/push.md)
-  * [常見錯誤](build/errors.md)
-  * [電子書轉製程式](build/ebookconvert.md)
+  * [2 Requirements](https://www.zabbix.com/documentation/3.2/manual/installation/requirements)
 
+  * [3 Installation from packages](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages)
+
+  * [4 Installation from sources](https://www.zabbix.com/documentation/3.2/manual/installation/install)
+
+  * [5 Installation from containers](https://www.zabbix.com/documentation/3.2/manual/installation/containers)
+
+  * [6 Upgrade procedure](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade)
+
+  * 
 * [整合 GitHub](github/README.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
 * [版面樣式](styling/README.md)
