@@ -15,7 +15,7 @@
   * [2 Server](format/introduction.md)
   * [3 Agent](format/chapters.md)
   * [4 Proxy](format/markdown.md)
-  * [5 Java gateway](manual/concepts/5-java-gateway.md)
+  * [5 Java gateway](manual/concepts/java.md)
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
   * [模板](format/templating.md)
@@ -47,6 +47,4 @@
   * [與單一作者的差異](platform/organizations/differences.md)
   * [作者歸屬轉換](platform/organizations/convert.md)
   * [移轉擁有權](platform/organizations/ownership.md)
-
-
 
