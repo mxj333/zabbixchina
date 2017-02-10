@@ -4,5 +4,7 @@
 * [Zabbix Manual](chapter1.md)
 * [Introduction](introduction.md)
 * Zabbix concepts
-* [Installation](installation.md)
+* [Installation](/manual/installation.md)
+
+
 
