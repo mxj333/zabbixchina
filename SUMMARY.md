@@ -19,6 +19,7 @@
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
 * [3. Installation](manual/installation/index.md)
+
   * [1 Getting Zabbix](https://www.zabbix.com/documentation/3.2/manual/installation/getting_zabbix)
 
   * [2 Requirements](https://www.zabbix.com/documentation/3.2/manual/installation/requirements)
@@ -31,7 +32,10 @@
 
   * [6 Upgrade procedure](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade)
 
-  * 
+  * [7 Known issues](https://www.zabbix.com/documentation/3.2/manual/installation/known_issues)
+
+  * [8 Template changes](https://www.zabbix.com/documentation/3.2/manual/installation/template_changes)
+
 * [整合 GitHub](github/README.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
 * [版面樣式](styling/README.md)
