@@ -1,4 +1,4 @@
-# SUMMARY
+# Summary
 
 * [简介](README.md)
   * [1 Manual structure](manual/introduction/manual_structure.md)
@@ -15,7 +15,7 @@
   * [2 Server](format/introduction.md)
   * [3 Agent](format/chapters.md)
   * [4 Proxy](format/markdown.md)
-  * 5 Java gateway
+  * [5 Java gateway](manual/concepts/5-java-gateway.md)
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
   * [模板](format/templating.md)
