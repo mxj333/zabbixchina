@@ -1,6 +1,6 @@
 ### 4 Installation from sources {#installation_from_sources}
 
-You can get the very latest version of Zabbix by compiling it from the sources.
+你可以通过源编译安装Zabbix的最新版。
 
 A step-by-step tutorial for installing Zabbix from the sources is provided here.
 
@@ -14,10 +14,5 @@ Go to the[Zabbix download page](http://www.zabbix.com/download.php)and download 
 $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
-
-
-
-
-  
 
 
