@@ -13,7 +13,7 @@
 * [2. Zabbix concepts](manual/concepts/README.md)
   * [1 Zabbix definitions](manual/concepts/definitions.md)
   * [2 Server](format/introduction.md)
-  * [章節](format/chapters.md)
+  * [3 Agent](format/chapters.md)
   * [Markdown](format/markdown.md)
   * [AsciiDoc](format/asciidoc.md)
   * [封面](format/cover.md)
