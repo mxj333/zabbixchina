@@ -10,8 +10,8 @@
   * 7 What's new in Zabbix 3.2.2
   * 8 What's new in Zabbix 3.2.3
   * 9 What's new in Zabbix 3.2.4
-* [書籍格式](format/README.md)
-  * [輸出格式](format/output.md)
+* [2. Zabbix concepts](manual/concepts/README.md)
+  * [1 Zabbix definitions](manual/concepts/definitions.md)
   * [輸出格式](format/introduction.md)
   * [章節](format/chapters.md)
   * [Markdown](format/markdown.md)
