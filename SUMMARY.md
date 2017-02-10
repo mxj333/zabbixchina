@@ -1,10 +1,7 @@
 # SUMMARY
 
 * [简介](README.md)
-  * [不懂 GIT 也能用 GitBook](book/nogitisok.md)
-  * [GitBook 終端機指令](book/gitbook-cli.md)
-  * [補充說明](book/addendum.md)
-  * 1 Manual structure
+  * [1 Manual structure](manual/introduction/manual_structure.md)
   * 2 What is Zabbix
   * 3 Zabbix features
   * 4 Zabbix overview
