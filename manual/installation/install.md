@@ -4,7 +4,7 @@
 
 本节是从源安装Zabbix的分步教程。
 
-#### 1 Installing Zabbix daemons {#installing_zabbix_daemons}
+#### 1 安装Zabbix服务器 {#installing_zabbix_daemons}
 
 ##### 1 下载源文件 {#download_the_source_archive}
 
