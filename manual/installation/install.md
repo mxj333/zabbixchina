@@ -27,5 +27,5 @@ useradd -g zabbix zabbix
 
 A separate user account is not required for Zabbix frontend installation.
 
-If Zabbix[server](https://www.zabbix.com/documentation/3.2/manual/concepts/server)and[agent](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)are run on the same machine it is recommended to use a different user for running the server than for running the agent. Otherwise, if both are run as the same user, the agent can access the server configuration file and any Admin level user in Zabbix can quite easily retrieve, for example, the database password.
+如果Zabbix服务器和代理服务器是运行在相同的机器，建议使用一个不同的用户运行服务器比运行代理。否则，如果两者都运行相同的用户，代理可以访问服务器的配置文件，在Zabbix的任何管理员级别的用户可以很容易地检索，例如，数据库密码。
 
