@@ -17,7 +17,7 @@
   * [4 Proxy](format/markdown.md)
   * 5 Java gateway
   * [6 Sender](format/cover.md)
-  * [多語言版本](format/languages.md)
+  * [7 Get](format/languages.md)
   * [模板](format/templating.md)
   * [內容參照](format/conrefs.md)
   * [忽略檔案與目錄](format/ignore.md)
