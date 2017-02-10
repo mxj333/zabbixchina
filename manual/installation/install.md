@@ -14,5 +14,18 @@ Go to the[Zabbix download page](http://www.zabbix.com/download.php)and download 
 $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
+##### 2 创建用户账号 {#create_user_account}
 
+For all of the Zabbix daemon processes, an unprivileged user is required. If a Zabbix daemon is started from an unprivileged user account, it will run as that user.
+
+However, if a daemon is started from a 'root' account, it will switch to a 'zabbix' user account, which must be present. To create such a user account \(in its own group, “zabbix”\) on Linux systems, run:
+
+```
+groupadd zabbix
+useradd -g zabbix zabbix
+```
+
+A separate user account is not required for Zabbix frontend installation.
+
+If Zabbix[server](https://www.zabbix.com/documentation/3.2/manual/concepts/server)and[agent](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)are run on the same machine it is recommended to use a different user for running the server than for running the agent. Otherwise, if both are run as the same user, the agent can access the server configuration file and any Admin level user in Zabbix can quite easily retrieve, for example, the database password.
 
