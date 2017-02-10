@@ -18,10 +18,12 @@
   * [5 Java gateway](manual/concepts/java.md)
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
-* [製書流程](build/README.md)
+* [3. Installation](https://www.zabbix.com/documentation/3.2/manual/installation)
+
   * [使用 GIT 更新](build/push.md)
   * [常見錯誤](build/errors.md)
   * [電子書轉製程式](build/ebookconvert.md)
+
 * [整合 GitHub](github/README.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
 * [版面樣式](styling/README.md)
