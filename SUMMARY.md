@@ -18,12 +18,6 @@
   * [5 Java gateway](manual/concepts/java.md)
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
-  * [模板](format/templating.md)
-  * [內容參照](format/conrefs.md)
-  * [忽略檔案與目錄](format/ignore.md)
-  * [設定檔](format/configuration.md)
-  * [外掛](format/plugins.md)
-  * [數學公式](format/math.md)
 * [製書流程](build/README.md)
   * [使用 GIT 更新](build/push.md)
   * [常見錯誤](build/errors.md)
@@ -47,4 +41,6 @@
   * [與單一作者的差異](platform/organizations/differences.md)
   * [作者歸屬轉換](platform/organizations/convert.md)
   * [移轉擁有權](platform/organizations/ownership.md)
+
+
 
