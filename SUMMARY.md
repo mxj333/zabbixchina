@@ -16,7 +16,7 @@
   * [3 Agent](format/chapters.md)
   * [4 Proxy](format/markdown.md)
   * 5 Java gateway
-  * [封面](format/cover.md)
+  * [6 Sender](format/cover.md)
   * [多語言版本](format/languages.md)
   * [模板](format/templating.md)
   * [內容參照](format/conrefs.md)
