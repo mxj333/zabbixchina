@@ -19,23 +19,14 @@
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
 * [3. Installation](manual/installation/index.md)
-
   * [1 Getting Zabbix](https://www.zabbix.com/documentation/3.2/manual/installation/getting_zabbix)
-
   * [2 Requirements](https://www.zabbix.com/documentation/3.2/manual/installation/requirements)
-
   * [3 Installation from packages](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages)
-
-  * [4 Installation from sources](https://www.zabbix.com/documentation/3.2/manual/installation/install)
-
+  * [4 Installation from sources](manual/installation/install.md)
   * [5 Installation from containers](https://www.zabbix.com/documentation/3.2/manual/installation/containers)
-
   * [6 Upgrade procedure](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade)
-
   * [7 Known issues](https://www.zabbix.com/documentation/3.2/manual/installation/known_issues)
-
   * [8 Template changes](https://www.zabbix.com/documentation/3.2/manual/installation/template_changes)
-
 * [整合 GitHub](github/README.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
 * [版面樣式](styling/README.md)
@@ -55,6 +46,4 @@
   * [與單一作者的差異](platform/organizations/differences.md)
   * [作者歸屬轉換](platform/organizations/convert.md)
   * [移轉擁有權](platform/organizations/ownership.md)
-
-
 
