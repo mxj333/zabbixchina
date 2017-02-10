@@ -6,7 +6,7 @@
 
 #### 1 Installing Zabbix daemons {#installing_zabbix_daemons}
 
-##### 1 Download the source archive {#download_the_source_archive}
+##### 1 下载源文件 {#download_the_source_archive}
 
 Go to the[Zabbix download page](http://www.zabbix.com/download.php)and download the source archive. Once downloaded, extract the sources, by running:
 
