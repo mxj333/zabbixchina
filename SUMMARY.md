@@ -37,7 +37,20 @@
   * [11 Upgrade notes for 3.2.3](manual/installation/upgrade_notes_323.md)
   * [12 Upgrade notes for 3.2.4](manual/installation/upgrade_notes_324.md)
 * [4. Quickstart](manual/quickstart.md)
+
   * [移轉內容到 GitHub](github/transferring_to_github.md)
+  * [1 Login and configuring user](https://www.zabbix.com/documentation/3.2/manual/quickstart/login)![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [2 New host](https://www.zabbix.com/documentation/3.2/manual/quickstart/host)
+
+  * [3 New item](https://www.zabbix.com/documentation/3.2/manual/quickstart/item)![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [4 New trigger](https://www.zabbix.com/documentation/3.2/manual/quickstart/trigger)
+
+    [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
+
+    [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
+
   * [移轉內容到 GitHub](github/transferring_to_github.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
@@ -48,8 +61,10 @@
   * [書籍內容樣式](styling/book.md)
 
 * [編輯界面](editor/README.md)
+
   * [草稿編輯流程](editor/draft.md)
   * [調整章節](editor/chapters.md)
+
 * [搜尋](platform/search.md)
 * [營業稅](platform/taxes.md)
 * [閱讀權限](platform/visibility.md)
