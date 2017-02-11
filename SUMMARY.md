@@ -102,26 +102,8 @@
 * [14. Discovery](https://www.zabbix.com/documentation/3.2/manual/discovery)
 
   * [1 Network discovery](https://www.zabbix.com/documentation/3.2/manual/discovery/network_discovery)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [2 Active agent auto-registration](https://www.zabbix.com/documentation/3.2/manual/discovery/auto_registration)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plusbottom.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(155);)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [3 Low-level discovery](https://www.zabbix.com/documentation/3.2/manual/discovery/low_level_discovery)
+  * [2 Active agent auto-registration](https://www.zabbix.com/documentation/3.2/manual/discovery/auto_registration)
+  * [3 Low-level discovery](https://www.zabbix.com/documentation/3.2/manual/discovery/low_level_discovery)
 
 * [15. Distributed monitoring](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring)
 
