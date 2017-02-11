@@ -175,36 +175,9 @@
 * [18. API](https://www.zabbix.com/documentation/3.2/manual/api)
 
   * [Method reference](https://www.zabbix.com/documentation/3.2/manual/api/reference)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [Appendix 1. Reference commentary](https://www.zabbix.com/documentation/3.2/manual/api/reference_commentary)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [Appendix 2. Changes from 3.0 to 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.0_-_3.2)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [Zabbix API changes in 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.2)
+  * [Appendix 1. Reference commentary](https://www.zabbix.com/documentation/3.2/manual/api/reference_commentary)
+  * [Appendix 2. Changes from 3.0 to 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.0_-_3.2)
+  * [Zabbix API changes in 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.2)
 
 * [Appendixes](https://www.zabbix.com/documentation/3.2/manual/appendix)
 
