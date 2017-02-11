@@ -315,174 +315,18 @@
       * [itemprototype.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/iswritable)
       * [itemprototype.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/update)
     * [IT service](https://www.zabbix.com/documentation/3.2/manual/api/reference/service)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [&gt; IT Service object](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/object)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.adddependencies](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/adddependencies)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.addtimes](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/addtimes)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/create)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/delete)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.deletedependencies](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/deletedependencies)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.deletetimes](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/deletetimes)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/get)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.getsla](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/getsla)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/isreadable)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/iswritable)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [service.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/update)
+    * [&gt; IT Service object](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/object)
+    * [service.adddependencies](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/adddependencies)
+    * [service.addtimes](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/addtimes)
+    * [service.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/create)
+    * [service.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/delete)
+    * [service.deletedependencies](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/deletedependencies)
+    * [service.deletetimes](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/deletetimes)
+    * [service.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/get)
+    * [service.getsla](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/getsla)
+    * [service.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/isreadable)
+    * [service.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/iswritable)
+    * [service.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/service/update)
 
 * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
