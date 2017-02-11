@@ -43,9 +43,10 @@
   * [4 New trigger](https://www.zabbix.com/documentation/3.2/manual/quickstart/trigger)
   * [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
   * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
+  
 * [5. Zabbix appliance](manual/appliance.md)
-* [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
 
+* [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
   * [1 Hosts and host groups](https://www.zabbix.com/documentation/3.2/manual/config/hosts)
  * [2 Items](https://www.zabbix.com/documentation/3.2/manual/config/items)
  * [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/config/triggers)
