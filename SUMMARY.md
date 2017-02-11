@@ -229,4 +229,7 @@
         * [correlation.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/create)
         * [correlation.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/delete)
         * [correlation.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/get)
-        [correlation.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/update)
+        * [correlation.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/update)
+
+
+
