@@ -214,7 +214,281 @@
     * [Discovery check](https://www.zabbix.com/documentation/3.2/manual/api/reference/dcheck)
       * [&gt; Discovery check object](https://www.zabbix.com/documentation/3.2/manual/api/reference/dcheck/object)
       * [dcheck.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/dcheck/get)
-    * 
+    * [Discovery rule](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [&gt; Discovery rule object](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/object)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [drule.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/create)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [drule.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/delete)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [drule.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/get)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [drule.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/isreadable)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [drule.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/iswritable)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [drule.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/update)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(268);)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+      [Event](https://www.zabbix.com/documentation/3.2/manual/api/reference/event)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [&gt; Event object](https://www.zabbix.com/documentation/3.2/manual/api/reference/event/object)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [event.acknowledge](https://www.zabbix.com/documentation/3.2/manual/api/reference/event/acknowledge)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [event.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/event/get)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(272);)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+      [Graph](https://www.zabbix.com/documentation/3.2/manual/api/reference/graph)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [&gt; Graph object](https://www.zabbix.com/documentation/3.2/manual/api/reference/graph/object)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [graph.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/graph/create)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [graph.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/graph/delete)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [graph.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/graph/get)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [graph.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/graph/update)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(278);)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+      [Graph item](https://www.zabbix.com/documentation/3.2/manual/api/reference/graphitem)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [&gt; Graph item object](https://www.zabbix.com/documentation/3.2/manual/api/reference/graphitem/object)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [graphitem.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/graphitem/get)
   * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
   * [Appendix 2. Changes from 3.0 to 3.2](manual/api/changes_3.0_-_3.2.md)
   * [Zabbix API changes in 3.2](manual/api/changes_3.2.md)
