@@ -221,6 +221,12 @@
         * [application.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/application/get)
         * [application.massadd](https://www.zabbix.com/documentation/3.2/manual/api/reference/application/massadd)
         * [application.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/application/update)
-
-
-
+      * [Configuration](https://www.zabbix.com/documentation/3.2/manual/api/reference/configuration)
+        * [configuration.export](https://www.zabbix.com/documentation/3.2/manual/api/reference/configuration/export)
+        * [configuration.import](https://www.zabbix.com/documentation/3.2/manual/api/reference/configuration/import)
+      * [Correlation](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation)
+        * [&gt; Correlation object](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/object)
+        * [correlation.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/create)
+        * [correlation.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/delete)
+        * [correlation.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/get)
+        [correlation.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/update)
