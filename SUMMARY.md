@@ -56,6 +56,12 @@
   * [書籍首頁樣式](styling/homepage.md)
   * [書籍內容樣式](styling/book.md)
 
+  [  
+  版面樣式](#)
+
+  * [書籍首頁樣式](#)
+  * [書籍內容樣式](#)
+
 * [編輯界面](editor/README.md)
 
   * [草稿編輯流程](editor/draft.md)
@@ -64,6 +70,7 @@
 * [搜尋](platform/search.md)
 
 * [營業稅](platform/taxes.md)
+
 * [閱讀權限](platform/visibility.md)
 * [自訂網域名稱](platform/domains.md)
 * [電郵寄送](platform/mailing.md)
