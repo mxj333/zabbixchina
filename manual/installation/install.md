@@ -15,7 +15,7 @@ $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
 ```
-Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 標題文字範例一") Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
 ```
 
 ##### 2 创建用户账号 {#create_user_account}
