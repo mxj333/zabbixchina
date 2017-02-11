@@ -277,6 +277,7 @@
       * [hostinterface.replacehostinterfaces](manual/api/reference/hostinterface/replacehostinterfaces.md)
       * [hostinterface.update](manual/api/reference/hostinterface/update.md)
     * [Host prototype](manual/api/reference/hostprototype.md)
+
       * [&gt; Host prototype object](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/object)
 
       * [hostprototype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/create)
@@ -290,6 +291,16 @@
       * [hostprototype.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/iswritable)
 
       * [hostprototype.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/update)
+
+    * [Icon map](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap)
+      * [&gt; Icon map object](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/object)
+      * [iconmap.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/create)
+      * [iconmap.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/delete)
+      * [iconmap.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/get)
+      * [iconmap.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/isreadable)
+     * [iconmap.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/iswritable)
+      * [iconmap.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/update)
+      
 
   * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
