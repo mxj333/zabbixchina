@@ -51,12 +51,13 @@
 
   * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
 
-* [版面樣式](styling/README.md)
+* ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)[5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
 
   * [書籍首頁樣式](styling/homepage.md)
   * [書籍內容樣式](styling/book.md)
 
 * [版面樣式](#)
+
   * [書籍首頁樣式](#)
   * [書籍內容樣式](#)
 
@@ -70,6 +71,7 @@
 * [營業稅](platform/taxes.md)
 
 * [閱讀權限](platform/visibility.md)
+
 * [自訂網域名稱](platform/domains.md)
 * [電郵寄送](platform/mailing.md)
 * [帳號管理](account/README.md)
