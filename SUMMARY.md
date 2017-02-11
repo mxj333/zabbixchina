@@ -61,7 +61,7 @@
           * [15 ODBC monitoring](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/odbc_checks)
         * [3 History and trends](https://www.zabbix.com/documentation/3.2/manual/config/items/history_and_trends)
         * [4 User parameters](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters)
-            * [1 Extending Zabbix agents](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters/extending_agent)
+          * [1 Extending Zabbix agents](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters/extending_agent)
         * [5 Loadable modules](https://www.zabbix.com/documentation/3.2/manual/config/items/loadablemodules)
         * [6 Windows performance counters](https://www.zabbix.com/documentation/3.2/manual/config/items/perfcounters)
         * [6.7 Mass update](https://www.zabbix.com/documentation/3.2/manual/config/items/itemupdate)
@@ -69,6 +69,7 @@
         * [9 Applications](https://www.zabbix.com/documentation/3.2/manual/config/items/applications)
         * [10 Queue](https://www.zabbix.com/documentation/3.2/manual/config/items/queue)
         * [11 Value cache](https://www.zabbix.com/documentation/3.2/manual/config/items/value_cache)
+      * 
 
 
 
