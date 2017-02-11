@@ -15,9 +15,12 @@ $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
 ```
+
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 標題文字範例二" Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
+[logo]:  
+
+Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
 ```
 
 ##### 2 创建用户账号 {#create_user_account}
