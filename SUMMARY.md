@@ -50,10 +50,11 @@
   * [4 New trigger](manual/quickstart/trigger.md)
   * [5 Receiving problem notification](manual/quickstart/notification.md)
   * [6 New template](manual/quickstart/template.md)
-  
+
 * [5. Zabbix appliance](manual/appliance.md.md)
 
 * [6. Configuration](manual/config.md)
+
   * [1 Hosts and host groups](manual/config/hosts.md)
   * [2 Items](manual/config/items.md)
   * [3 Triggers](manual/config/triggers.md)
@@ -66,8 +67,9 @@
   * [10 Users and user groups](manual/config/users_and_usergroups.md)
 
 * [書籍內容樣式](styling/book.md)
+
   * [書籍首頁樣式](#)
-  
+
 * [版面樣式](#)
 
   * [書籍首頁樣式](#)
