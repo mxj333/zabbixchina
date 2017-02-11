@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+
   * [1 Manual structure](manual/introduction/manual_structure.md)
   * 2 What is Zabbix
   * 3 Zabbix features
@@ -10,7 +11,9 @@
   * 7 What's new in Zabbix 3.2.2
   * 8 What's new in Zabbix 3.2.3
   * 9 What's new in Zabbix 3.2.4
+
 * [2. Zabbix concepts](manual/concepts/README.md)
+
   * [1 Zabbix definitions](manual/concepts/definitions.md)
   * [2 Server](format/introduction.md)
   * [3 Agent](format/chapters.md)
@@ -18,7 +21,9 @@
   * [5 Java gateway](manual/concepts/java.md)
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
+
 * [3. Installation](manual/installation/index.md)
+
   * [1 Getting Zabbix](manual/installation/getting_zabbix.md)
   * [2 Requirements](manual/installation/requirements.md)
   * [3 Installation from packages](manual/installation/install_from_packages.md)
@@ -36,7 +41,9 @@
   * [10 Upgrade notes for 3.2.2](manual/installation/upgrade_notes_322.md)
   * [11 Upgrade notes for 3.2.3](manual/installation/upgrade_notes_323.md)
   * [12 Upgrade notes for 3.2.4](manual/installation/upgrade_notes_324.md)
+
 * [4. Quickstart](manual/quickstart.md)
+
   * [1 Login and configuring user](manual/quickstart/login.md)
   * [2 New host](manual/quickstart/host.md)
   * [3 New item](manual/quickstart/item.md)
