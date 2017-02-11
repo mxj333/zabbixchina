@@ -23,26 +23,28 @@
   * [1 Getting Zabbix](manual/installation/getting_zabbix.md)
   * [2 Requirements](manual/installation/requirements.md)
   * [3 Installation from packages](manual/installation/install_from_packages.md)
-   * [1 Repository installation](manual/installation/install_from_packages/repository_installation.md)
+    * [1 Repository installation](manual/installation/install_from_packages/repository_installation.md)
     * [2 Server installation with MySQL database](manual/installation/install_from_packages/server_installation_with_mysql.md)
     * [3 Server installation with PostgreSQL database](manual/installation/install_from_packages/server_installation_with_postgresql.md)
     * [4 Agent installation](manual/installation/install_from_packages/agent_installation.md)
     * [5 Proxy installation](manual/installation/install_from_packages/proxy_installation.md)
-
   * [4 Installation from sources](manual/installation/install.md)
   * [5 Installation from containers](manual/installation/containers.md)
   * [6 Upgrade procedure](manual/installation/upgrade.md)
   * [7 Known issues](manual/installation/known_issues.md)
-  * 8 Template changes
+  * [8 Template changes](https://www.zabbix.com/documentation/3.2/manual/installation/template_changes)
 
-  * 9 Upgrade notes for 3.2.0
+  * [9 Upgrade notes for 3.2.0](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_320)
 
   * [10 Upgrade notes for 3.2.2](manual/installation/upgrade_notes_322.md)
+
   * [11 Upgrade notes for 3.2.3](manual/installation/upgrade_notes_323.md)
   * [12 Upgrade notes for 3.2.4](manual/installation/upgrade_notes_324.md)
 
 * [整合 GitHub](github/README.md)
+
   * [移轉內容到 GitHub](github/transferring_to_github.md)
+
 * [版面樣式](styling/README.md)
   * [書籍首頁樣式](styling/homepage.md)
   * [書籍內容樣式](styling/book.md)
