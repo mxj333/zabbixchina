@@ -37,21 +37,14 @@
   * [11 Upgrade notes for 3.2.3](manual/installation/upgrade_notes_323.md)
   * [12 Upgrade notes for 3.2.4](manual/installation/upgrade_notes_324.md)
 * [4. Quickstart](manual/quickstart.md)
-
-  * [移轉內容到 GitHub](github/transferring_to_github.md)
   * [1 Login and configuring user](https://www.zabbix.com/documentation/3.2/manual/quickstart/login)![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
   * [2 New host](https://www.zabbix.com/documentation/3.2/manual/quickstart/host)
-
   * [3 New item](https://www.zabbix.com/documentation/3.2/manual/quickstart/item)
-
   * [4 New trigger](https://www.zabbix.com/documentation/3.2/manual/quickstart/trigger)
-
   * [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
-
   * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
-
-* ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)[5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
+* [5. Zabbix appliance](manual/appliance.md)
+* [6. Zabbix appliance](manual/appliance.md)
 
   * [書籍首頁樣式](styling/homepage.md)
   * [書籍內容樣式](styling/book.md)
