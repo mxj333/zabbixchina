@@ -293,20 +293,27 @@
       * [hostprototype.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/update)
 
     * [Icon map](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap)
+
       * [&gt; Icon map object](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/object)
       * [iconmap.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/create)
       * [iconmap.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/delete)
       * [iconmap.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/get)
       * [iconmap.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/isreadable)
-     * [iconmap.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/iswritable)
+      * [iconmap.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/iswritable)
       * [iconmap.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/update)
-      
+    * [Image](https://www.zabbix.com/documentation/3.2/manual/api/reference/image)
+    * [&gt; Image object](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/object)
+    * [image.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/create)
+    * [image.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/delete)
+    * [image.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/get)
+    * [image.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/update)
+    * 
 
-  * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
+* [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
-  * [Appendix 2. Changes from 3.0 to 3.2](manual/api/changes_3.0_-_3.2.md)
+* [Appendix 2. Changes from 3.0 to 3.2](manual/api/changes_3.0_-_3.2.md)
 
-  * [Zabbix API changes in 3.2](manual/api/changes_3.2.md)
+* [Zabbix API changes in 3.2](manual/api/changes_3.2.md)
 
 * [Appendixes](manual/appendix.md)
 
