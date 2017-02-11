@@ -53,199 +53,22 @@
           * [7 Calculated items](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/calculated)
           * [8 Internal checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/internal)
           * [9 SSH checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/ssh_checks)
-        * [10 Telnet checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/telnet_checks)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [11 External checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/external)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [12 Aggregate checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/aggregate)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [13 Trapper items](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/trapper)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [14 JMX monitoring](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/jmx_monitoring)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [15 ODBC monitoring](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/odbc_checks)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-        [3 History and trends](https://www.zabbix.com/documentation/3.2/manual/config/items/history_and_trends)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(76);)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
-
-        [4 User parameters](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [1 Extending Zabbix agents](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters/extending_agent)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [5 Loadable modules](https://www.zabbix.com/documentation/3.2/manual/config/items/loadablemodules)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [6 Windows performance counters](https://www.zabbix.com/documentation/3.2/manual/config/items/perfcounters)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [6.7 Mass update](https://www.zabbix.com/documentation/3.2/manual/config/items/itemupdate)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [8 Value mapping](https://www.zabbix.com/documentation/3.2/manual/config/items/mapping)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [9 Applications](https://www.zabbix.com/documentation/3.2/manual/config/items/applications)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [10 Queue](https://www.zabbix.com/documentation/3.2/manual/config/items/queue)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [11 Value cache](https://www.zabbix.com/documentation/3.2/manual/config/items/value_cache)
+          * [10 Telnet checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/telnet_checks)
+          * [11 External checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/external)
+          * [12 Aggregate checks](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/aggregate)
+          * [13 Trapper items](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/trapper)
+          * [14 JMX monitoring](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/jmx_monitoring)
+          * [15 ODBC monitoring](https://www.zabbix.com/documentation/3.2/manual/config/items/itemtypes/odbc_checks)
+          * [3 History and trends](https://www.zabbix.com/documentation/3.2/manual/config/items/history_and_trends)
+          * [4 User parameters](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters)
+            * [1 Extending Zabbix agents](https://www.zabbix.com/documentation/3.2/manual/config/items/userparameters/extending_agent)
+          * [5 Loadable modules](https://www.zabbix.com/documentation/3.2/manual/config/items/loadablemodules)
+          * [6 Windows performance counters](https://www.zabbix.com/documentation/3.2/manual/config/items/perfcounters)
+          * [6.7 Mass update](https://www.zabbix.com/documentation/3.2/manual/config/items/itemupdate)
+          * [8 Value mapping](https://www.zabbix.com/documentation/3.2/manual/config/items/mapping)
+          * [9 Applications](https://www.zabbix.com/documentation/3.2/manual/config/items/applications)
+          * [10 Queue](https://www.zabbix.com/documentation/3.2/manual/config/items/queue)
+          * [11 Value cache](https://www.zabbix.com/documentation/3.2/manual/config/items/value_cache)
 
 
 
