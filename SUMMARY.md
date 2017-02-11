@@ -267,123 +267,15 @@
       * [hostgroup.massremove](manual/api/reference/hostgroup/massremove.md)
       * [hostgroup.massupdate](manual/api/reference/hostgroup/massupdate.md)
       * [hostgroup.update](manual/api/reference/hostgroup/update.md)
-    * [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(312);)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
-
-      [Host interface](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [&gt; Host interface object](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/object)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/create)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/delete)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/get)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.massadd](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massadd)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.massremove](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massremove)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.replacehostinterfaces](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/replacehostinterfaces)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [hostinterface.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/update)
+    * [Host interface](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface)
+      * [&gt; Host interface object](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/object)
+      * [hostinterface.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/create)
+      * [hostinterface.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/delete)
+      * [hostinterface.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/get)
+      * [hostinterface.massadd](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massadd)
+      * [hostinterface.massremove](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massremove)
+      * [hostinterface.replacehostinterfaces](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/replacehostinterfaces)
+      * [hostinterface.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/update)
 
   * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
