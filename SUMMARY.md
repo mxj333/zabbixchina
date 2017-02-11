@@ -193,6 +193,14 @@
         * [6 Media types](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/administration/mediatypes)
         * [7 Scripts](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/administration/scripts)
         * [8 Queue](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/administration/queue)
+    * [2 User profile](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile)
+      * [1 Global notifications](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile/global_notifications)
+      * [2 Sound in browsers](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile/sound)
+    * [3 Global search](https://www.zabbix.com/documentation/3.2/manual/web_interface/global_search)
+    * [4 Frontend maintenance mode](https://www.zabbix.com/documentation/3.2/manual/web_interface/maintenance_mode)
+    * [5 Page parameters](https://www.zabbix.com/documentation/3.2/manual/web_interface/page_parameters)
+    * [6 Definitions](https://www.zabbix.com/documentation/3.2/manual/web_interface/definitions)
+    * [7 Creating your own theme](https://www.zabbix.com/documentation/3.2/manual/web_interface/theming)
 
 
 
