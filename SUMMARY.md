@@ -230,6 +230,23 @@
         * [correlation.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/delete)
         * [correlation.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/get)
         * [correlation.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/correlation/update)
+      * [Discovered host](https://www.zabbix.com/documentation/3.2/manual/api/reference/dhost)
+        * [&gt; Discovered host object](https://www.zabbix.com/documentation/3.2/manual/api/reference/dhost/object)
+        * [dhost.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/dhost/get)
+      * [Discovered service](https://www.zabbix.com/documentation/3.2/manual/api/reference/dservice)
+        * [&gt; Discovered service object](https://www.zabbix.com/documentation/3.2/manual/api/reference/dservice/object)
+        * [dservice.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/dservice/get)
+      * [Discovery check](https://www.zabbix.com/documentation/3.2/manual/api/reference/dcheck)
+        * [&gt; Discovery check object](https://www.zabbix.com/documentation/3.2/manual/api/reference/dcheck/object)
+        * [dcheck.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/dcheck/get)
+      * [Discovery rule](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule)
+        * [&gt; Discovery rule object](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/object)
+        * [drule.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/create)
+        * [drule.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/delete)
+        * [drule.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/get)
+        * [drule.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/isreadable)
+        * [drule.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/iswritable)
+        * [drule.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/drule/update)
 
 
 
