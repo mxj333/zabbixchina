@@ -72,7 +72,6 @@
 
   * [1 Web monitoring items](https://www.zabbix.com/documentation/3.2/manual/web_monitoring/items)
   * [2 Real life scenario](https://www.zabbix.com/documentation/3.2/manual/web_monitoring/example)
-  * 
 
 * [9. Virtual machine monitoring](https://www.zabbix.com/documentation/3.2/manual/vm_monitoring)
 
