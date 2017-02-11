@@ -24,6 +24,11 @@
   * [3 Installation from packages](manual/installation/install_from_packages.md)
     * [1 Repository installation](manual/installation/install_from_packages/repository_installation.md)
     * [2 Server installation with MySQL database](manual/installation/install_from_packages/server_installation_with_mysql.md)
+    * [3 Server installation with PostgreSQL database](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_postgresql)
+
+    * [4 Agent installation](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/agent_installation)
+
+    * [5 Proxy installation](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/proxy_installation)
   * [4 Installation from sources](manual/installation/install.md)
   * [5 Installation from containers](manual/installation/containers.md)
   * [6 Upgrade procedure](manual/installation/upgrade.md)
