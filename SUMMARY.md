@@ -23,7 +23,7 @@
   * [1 Getting Zabbix](manual/installation/getting_zabbix.md)
   * [2 Requirements](manual/installation/requirements.md)
   * [3 Installation from packages](manual/installation/install_from_packages.md)
-    * [1 Repository installation](manual/installation/install_from_packages/repository_installation.md)
+   * [1 Repository installation](manual/installation/install_from_packages/repository_installation.md)
     * [2 Server installation with MySQL database](manual/installation/install_from_packages/server_installation_with_mysql.md)
     * [3 Server installation with PostgreSQL database](manual/installation/install_from_packages/server_installation_with_postgresql.md)
     * [4 Agent installation](manual/installation/install_from_packages/agent_installation.md)
