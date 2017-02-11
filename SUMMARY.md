@@ -96,6 +96,18 @@
 
 * [13. Configuration export/import](https://www.zabbix.com/documentation/3.2/manual/xml_export_import)
 
+  * [Groups](https://www.zabbix.com/documentation/3.2/manual/xml_export_import/groups)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [Hosts](https://www.zabbix.com/documentation/3.2/manual/xml_export_import/hosts)
+
 * [14. Discovery](https://www.zabbix.com/documentation/3.2/manual/discovery)
 
 * [15. Distributed monitoring](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring)
