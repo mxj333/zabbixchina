@@ -276,6 +276,7 @@
       * [hostinterface.massremove](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massremove)
       * [hostinterface.replacehostinterfaces](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/replacehostinterfaces)
       * [hostinterface.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/update)
+    * [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(321);)[Host prototype](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype)
 
   * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
