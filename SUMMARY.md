@@ -1,8 +1,3 @@
-
----
-
----
-
 # Summary
 
 * [简介](README.md)
@@ -282,139 +277,36 @@
       * [hostinterface.replacehostinterfaces](manual/api/reference/hostinterface/replacehostinterfaces.md)
       * [hostinterface.update](manual/api/reference/hostinterface/update.md)
     * [Host prototype](manual/api/reference/hostprototype.md)
-
-      * [&gt; Host prototype object](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/object)
-
-      * [hostprototype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/create)
-
-      * [hostprototype.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/delete)
-
-      * [hostprototype.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/get)
-
-      * [hostprototype.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/isreadable)
-
-      * [hostprototype.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/iswritable)
-
-      * [hostprototype.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/update)
-
-    * [Icon map](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap)
-
-      * [&gt; Icon map object](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/object)
-      * [iconmap.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/create)
-      * [iconmap.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/delete)
-      * [iconmap.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/get)
-      * [iconmap.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/isreadable)
-      * [iconmap.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/iswritable)
-      * [iconmap.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/update)
-
-    * [Image](https://www.zabbix.com/documentation/3.2/manual/api/reference/image)
-
-      * [&gt; Image object](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/object)
-      * [image.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/create)
-      * [image.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/delete)
-      * [image.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/get)
-      * [image.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/update)
-
-    * [Item](https://www.zabbix.com/documentation/3.2/manual/api/reference/item)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [&gt; Item object](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/object)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [item.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/create)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [item.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/delete)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [item.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/get)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [item.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/isreadable)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [item.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/iswritable)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-      [item.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/update)
-
+      * [&gt; Host prototype object](manual/api/reference/hostprototype/object.md)
+      * [hostprototype.create](manual/api/reference/hostprototype/create.md)
+      * [hostprototype.delete](manual/api/reference/hostprototype/delete.md)
+      * [hostprototype.get](manual/api/reference/hostprototype/get.md)
+      * [hostprototype.isreadable](manual/api/reference/hostprototype/isreadable.md)
+      * [hostprototype.iswritable](manual/api/reference/hostprototype/iswritable.md)
+      * [hostprototype.update](manual/api/reference/hostprototype/update.md)
+    * [Icon map](manual/api/reference/iconmap.md)
+      * [&gt; Icon map object](manual/api/reference/iconmap/object.md)
+      * [iconmap.create](manual/api/reference/iconmap/create.md)
+      * [iconmap.delete](manual/api/reference/iconmap/delete.md)
+      * [iconmap.get](manual/api/reference/iconmap/get.md)
+      * [iconmap.isreadable](manual/api/reference/iconmap/isreadable.md)
+      * [iconmap.iswritable](manual/api/reference/iconmap/iswritable.md)
+      * [iconmap.update](manual/api/reference/iconmap/update.md)
+    * [Image](manual/api/reference/image.md)
+      * [&gt; Image object](manual/api/reference/image/object.md)
+      * [image.create](manual/api/reference/image/create.md)
+      * [image.delete](manual/api/reference/image/delete.md)
+      * [image.get](manual/api/reference/image/get.md)
+      * [image.update](manual/api/reference/image/update.md)
+    * [Item](manual/api/reference/item.md)
+      * [&gt; Item object](manual/api/reference/item/object.md)
+      * [item.create](manual/api/reference/item/create.md)
+      * [item.delete](manual/api/reference/item/delete.md)
+      * [item.get](manual/api/reference/item/get.md)
+      * [item.isreadable](manual/api/reference/item/isreadable.md)
+      * [item.iswritable](manual/api/reference/item/iswritable.md)
+      * [item.update](manual/api/reference/item/update.md)
+    * 
 * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
 * [Appendix 2. Changes from 3.0 to 3.2](manual/api/changes_3.0_-_3.2.md)
