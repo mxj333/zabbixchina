@@ -113,6 +113,64 @@
 
 * [16. Encryption](https://www.zabbix.com/documentation/3.2/manual/encryption)
 
+  * [1 Using certificates](https://www.zabbix.com/documentation/3.2/manual/encryption/using_certificates)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [2 Using pre-shared keys](https://www.zabbix.com/documentation/3.2/manual/encryption/using_pre_shared_keys)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minusbottom.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(162);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+    [3 Troubleshooting](https://www.zabbix.com/documentation/3.2/manual/encryption/troubleshooting)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/empty.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [1 Connection type or permission problems](https://www.zabbix.com/documentation/3.2/manual/encryption/troubleshooting/connection_permission_problems)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/empty.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [2 Certificate problems](https://www.zabbix.com/documentation/3.2/manual/encryption/troubleshooting/certificate_problems)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/empty.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [3 PSK problems](https://www.zabbix.com/documentation/3.2/manual/encryption/troubleshooting/psk_problems)
+
 * [17. Web interface](https://www.zabbix.com/documentation/3.2/manual/web_interface)
 
 * [18. API](https://www.zabbix.com/documentation/3.2/manual/api)
