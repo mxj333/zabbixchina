@@ -277,6 +277,19 @@
       * [hostinterface.replacehostinterfaces](manual/api/reference/hostinterface/replacehostinterfaces.md)
       * [hostinterface.update](manual/api/reference/hostinterface/update.md)
     * [Host prototype](manual/api/reference/hostprototype.md)
+      * [&gt; Host prototype object](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/object)
+
+      * [hostprototype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/create)
+
+      * [hostprototype.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/delete)
+
+      * [hostprototype.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/get)
+
+      * [hostprototype.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/isreadable)
+
+      * [hostprototype.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/iswritable)
+
+      * [hostprototype.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostprototype/update)
 
   * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
