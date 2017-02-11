@@ -75,6 +75,16 @@
 
 * [9. Virtual machine monitoring](https://www.zabbix.com/documentation/3.2/manual/vm_monitoring)
 
+  *   ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+
+
+    [Virtual machine discovery key fields](https://www.zabbix.com/documentation/3.2/manual/vm_monitoring/discovery_fields)
+
 * [10. Maintenance](https://www.zabbix.com/documentation/3.2/manual/maintenance)
 
 * [11. Regular expressions](https://www.zabbix.com/documentation/3.2/manual/regular_expressions)
