@@ -14,12 +14,7 @@ Go to the[Zabbix download page](http://www.zabbix.com/download.php)and download 
 $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
-```
-
-![alt text][logo]
-
-[logo]:  
-
+``` 
 Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
 ```
 
