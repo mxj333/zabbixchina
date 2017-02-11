@@ -109,6 +109,8 @@
 
 * [15. Distributed monitoring](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring)
 
+  * [1 Proxies](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring/proxies)
+
 * [16. Encryption](https://www.zabbix.com/documentation/3.2/manual/encryption)
 
 * [17. Web interface](https://www.zabbix.com/documentation/3.2/manual/web_interface)
