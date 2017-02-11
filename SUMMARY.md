@@ -28,11 +28,8 @@
   * [7 Known issues](https://www.zabbix.com/documentation/3.2/manual/installation/known_issues)
   * [8 Template changes](https://www.zabbix.com/documentation/3.2/manual/installation/template_changes)
   * [9 Upgrade notes for 3.2.0](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_320)
-
   * [10 Upgrade notes for 3.2.2](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_322)
-
   * [11 Upgrade notes for 3.2.3](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_323)
-
   * [12 Upgrade notes for 3.2.4](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_324)
 * [整合 GitHub](github/README.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
