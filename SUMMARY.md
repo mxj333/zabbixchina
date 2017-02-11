@@ -46,7 +46,98 @@
 * [5. Zabbix appliance](manual/appliance.md)
 * [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
 
-  * [書籍首頁樣式](styling/homepage.md)
+  * [1 Hosts and host groups](https://www.zabbix.com/documentation/3.2/manual/config/hosts)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(51);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [2 Items](https://www.zabbix.com/documentation/3.2/manual/config/items)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(85);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/config/triggers)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(95);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [4 Events](https://www.zabbix.com/documentation/3.2/manual/config/events)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [5 Event correlation](https://www.zabbix.com/documentation/3.2/manual/config/event_correlation)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(99);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [6 Visualisation](https://www.zabbix.com/documentation/3.2/manual/config/visualisation)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(110);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [7 Templates](https://www.zabbix.com/documentation/3.2/manual/config/templates)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(114);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [8 Notifications upon events](https://www.zabbix.com/documentation/3.2/manual/config/notifications)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(131);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [9 Macros](https://www.zabbix.com/documentation/3.2/manual/config/macros)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plusbottom.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(135);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+    [10 Users and user groups](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups)
+
   * [書籍內容樣式](styling/book.md)
 
 * [版面樣式](#)
@@ -68,6 +159,7 @@
 * [自訂網域名稱](platform/domains.md)
 
 * [電郵寄送](platform/mailing.md)
+
 * [帳號管理](account/README.md)
   * [重複帳號處理](account/duplicate.md)
 * [出版單位管理](platform/organizations/README.md)
