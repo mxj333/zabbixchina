@@ -307,13 +307,10 @@
       * [item.iswritable](manual/api/reference/item/iswritable.md)
       * [item.update](manual/api/reference/item/update.md)
     * [Item prototype](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype)
-
       * [&gt; Item prototype object](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/object)
-
-      * ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [itemprototype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/create)
-
+      *  [itemprototype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/create)
+      * [itemprototype.delete](manual/api/reference/itemprototype/delete.md)
+      * [itemprototype.get](manual/api/reference/itemprototype/get)
 * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
 
 * [Appendix 2. Changes from 3.0 to 3.2](manual/api/changes_3.0_-_3.2.md)
