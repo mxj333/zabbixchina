@@ -66,9 +66,7 @@
   * [9 Macros](manual/config/macros.md)
   * [10 Users and user groups](manual/config/users_and_usergroups.md)
 
-* ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)[7. IT services](https://www.zabbix.com/documentation/3.2/manual/it_services)
-
-  * [書籍首頁樣式](#)
+* [7. IT services](https://www.zabbix.com/documentation/3.2/manual/it_services)
 
 * [版面樣式](#)
 
