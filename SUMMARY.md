@@ -44,7 +44,7 @@
   * [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
   * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
 * [5. Zabbix appliance](manual/appliance.md)
-* [6. Zabbix appliance](manual/appliance.md)
+* [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
 
   * [書籍首頁樣式](styling/homepage.md)
   * [書籍內容樣式](styling/book.md)
@@ -66,6 +66,7 @@
 * [閱讀權限](platform/visibility.md)
 
 * [自訂網域名稱](platform/domains.md)
+
 * [電郵寄送](platform/mailing.md)
 * [帳號管理](account/README.md)
   * [重複帳號處理](account/duplicate.md)
