@@ -170,6 +170,7 @@
   * [4 Frontend maintenance mode](https://www.zabbix.com/documentation/3.2/manual/web_interface/maintenance_mode)
 
   * [5 Page parameters](https://www.zabbix.com/documentation/3.2/manual/web_interface/page_parameters)
+
   * [6 Definitions](https://www.zabbix.com/documentation/3.2/manual/web_interface/definitions)
   * [7 Creating your own theme](https://www.zabbix.com/documentation/3.2/manual/web_interface/theming)
 
@@ -177,11 +178,12 @@
 
   * [Method reference](https://www.zabbix.com/documentation/3.2/manual/api/reference)
     * [Action](https://www.zabbix.com/documentation/3.2/manual/api/reference/action)
-    * [&gt; Action object](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/object)
-    * [action.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/create)
-    * [action.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/delete)
-    * [action.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/get)
-    * [action.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/update)
+      * [&gt; Action object](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/object)
+      * [action.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/create)
+      * [action.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/delete)
+      * [action.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/get)
+      * [action.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/update)
+      * 
   * [Appendix 1. Reference commentary](https://www.zabbix.com/documentation/3.2/manual/api/reference_commentary)
   * [Appendix 2. Changes from 3.0 to 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.0_-_3.2)
   * [Zabbix API changes in 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.2)
