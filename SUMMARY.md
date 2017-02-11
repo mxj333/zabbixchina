@@ -73,89 +73,27 @@
   * [1 Web monitoring items](https://www.zabbix.com/documentation/3.2/manual/web_monitoring/items)
   * [2 Real life scenario](https://www.zabbix.com/documentation/3.2/manual/web_monitoring/example)
 
-* ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+* [9. Virtual machine monitoring](https://www.zabbix.com/documentation/3.2/manual/vm_monitoring)
 
-  [9. Virtual machine monitoring](https://www.zabbix.com/documentation/3.2/manual/vm_monitoring)
+* [10. Maintenance](https://www.zabbix.com/documentation/3.2/manual/maintenance)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+* [11. Regular expressions](https://www.zabbix.com/documentation/3.2/manual/regular_expressions)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+* [12. Event acknowledgment](https://www.zabbix.com/documentation/3.2/manual/acknowledges)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+* [13. Configuration export/import](https://www.zabbix.com/documentation/3.2/manual/xml_export_import)
 
-  [10. Maintenance](https://www.zabbix.com/documentation/3.2/manual/maintenance)
+* [14. Discovery](https://www.zabbix.com/documentation/3.2/manual/discovery)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+* [15. Distributed monitoring](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+* [16. Encryption](https://www.zabbix.com/documentation/3.2/manual/encryption)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+* [17. Web interface](https://www.zabbix.com/documentation/3.2/manual/web_interface)
 
-  [11. Regular expressions](https://www.zabbix.com/documentation/3.2/manual/regular_expressions)
+* [18. API](https://www.zabbix.com/documentation/3.2/manual/api)
 
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [12. Event acknowledgment](https://www.zabbix.com/documentation/3.2/manual/acknowledges)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(148);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [13. Configuration export/import](https://www.zabbix.com/documentation/3.2/manual/xml_export_import)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(151);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [14. Discovery](https://www.zabbix.com/documentation/3.2/manual/discovery)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(157);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [15. Distributed monitoring](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(159);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [16. Encryption](https://www.zabbix.com/documentation/3.2/manual/encryption)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(166);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [17. Web interface](https://www.zabbix.com/documentation/3.2/manual/web_interface)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(222);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [18. API](https://www.zabbix.com/documentation/3.2/manual/api)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-  [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plusbottom.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(530);)
-
-  ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-  [Appendixes](https://www.zabbix.com/documentation/3.2/manual/appendix)
+* [Appendixes](https://www.zabbix.com/documentation/3.2/manual/appendix)
 
   * [草稿編輯流程](editor/draft.md)
   * [調整章節](editor/chapters.md)
