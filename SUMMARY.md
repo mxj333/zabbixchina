@@ -1,4 +1,4 @@
-#[Zabbix documentation](https://www.zabbix.com/documentation/3.2/start)
+# [Zabbix documentation](https://www.zabbix.com/documentation/3.2/start)
 
 * [Zabbix Manual](https://www.zabbix.com/documentation/3.2/manual)
 
@@ -70,15 +70,15 @@
         * [10 Queue](https://www.zabbix.com/documentation/3.2/manual/config/items/queue)
         * [11 Value cache](https://www.zabbix.com/documentation/3.2/manual/config/items/value_cache)
       * [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/config/triggers)
-          * [1 Configuring a trigger](https://www.zabbix.com/documentation/3.2/manual/config/triggers/trigger)
-          * [2 Trigger expression](https://www.zabbix.com/documentation/3.2/manual/config/triggers/expression)
-          * [3 Trigger dependencies](https://www.zabbix.com/documentation/3.2/manual/config/triggers/dependencies)
-          * [4 Trigger severity](https://www.zabbix.com/documentation/3.2/manual/config/triggers/severity)
-          * [5 Customising trigger severities](https://www.zabbix.com/documentation/3.2/manual/config/triggers/customseverities)
-          * [6 Unit symbols](https://www.zabbix.com/documentation/3.2/manual/config/triggers/suffixes)
-          * [7 Mass update](https://www.zabbix.com/documentation/3.2/manual/config/triggers/update)
-          * [8 Predictive trigger functions](https://www.zabbix.com/documentation/3.2/manual/config/triggers/prediction)
-          * [9 Event tags](https://www.zabbix.com/documentation/3.2/manual/config/triggers/event_tags)
+        * [1 Configuring a trigger](https://www.zabbix.com/documentation/3.2/manual/config/triggers/trigger)
+        * [2 Trigger expression](https://www.zabbix.com/documentation/3.2/manual/config/triggers/expression)
+        * [3 Trigger dependencies](https://www.zabbix.com/documentation/3.2/manual/config/triggers/dependencies)
+        * [4 Trigger severity](https://www.zabbix.com/documentation/3.2/manual/config/triggers/severity)
+        * [5 Customising trigger severities](https://www.zabbix.com/documentation/3.2/manual/config/triggers/customseverities)
+        * [6 Unit symbols](https://www.zabbix.com/documentation/3.2/manual/config/triggers/suffixes)
+        * [7 Mass update](https://www.zabbix.com/documentation/3.2/manual/config/triggers/update)
+        * [8 Predictive trigger functions](https://www.zabbix.com/documentation/3.2/manual/config/triggers/prediction)
+        * [9 Event tags](https://www.zabbix.com/documentation/3.2/manual/config/triggers/event_tags)
       * [4 Events](https://www.zabbix.com/documentation/3.2/manual/config/events)
         * [1 Event sources](https://www.zabbix.com/documentation/3.2/manual/config/events/sources)
         * [2 Manual closing of problems](https://www.zabbix.com/documentation/3.2/manual/config/events/manual_close)
@@ -94,10 +94,265 @@
         * [3 Screens](https://www.zabbix.com/documentation/3.2/manual/config/visualisation/screens)
           * [1 Screen elements](https://www.zabbix.com/documentation/3.2/manual/config/visualisation/screens/elements)
         * [4 Slide shows](https://www.zabbix.com/documentation/3.2/manual/config/visualisation/slides)
-     * [7 Templates](https://www.zabbix.com/documentation/3.2/manual/config/templates)
+      * [7 Templates](https://www.zabbix.com/documentation/3.2/manual/config/templates)
         * [1 Configuring a template](https://www.zabbix.com/documentation/3.2/manual/config/templates/template)
         * [2 Linking/unlinking](https://www.zabbix.com/documentation/3.2/manual/config/templates/linking)
         * [3 Nesting](https://www.zabbix.com/documentation/3.2/manual/config/templates/nesting)
+      * [8 Notifications upon events](https://www.zabbix.com/documentation/3.2/manual/config/notifications)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(115);)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+        [1 Media types](https://www.zabbix.com/documentation/3.2/manual/config/notifications/media)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [1 E-mail](https://www.zabbix.com/documentation/3.2/manual/config/notifications/media/email)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [2 SMS](https://www.zabbix.com/documentation/3.2/manual/config/notifications/media/sms)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [3 Jabber](https://www.zabbix.com/documentation/3.2/manual/config/notifications/media/jabber)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [4 Ez Texting](https://www.zabbix.com/documentation/3.2/manual/config/notifications/media/ez_texting)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [5 Custom alertscripts](https://www.zabbix.com/documentation/3.2/manual/config/notifications/media/script)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(121);)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+        [2 Actions](https://www.zabbix.com/documentation/3.2/manual/config/notifications/action)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+        [1 Conditions](https://www.zabbix.com/documentation/3.2/manual/config/notifications/action/conditions)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(123);)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
+
+        [2 Operations](https://www.zabbix.com/documentation/3.2/manual/config/notifications/action/operation)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [3 Recovery operations](https://www.zabbix.com/documentation/3.2/manual/config/notifications/action/recovery_operations)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [4 Escalations](https://www.zabbix.com/documentation/3.2/manual/config/notifications/action/escalations)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [3 Receiving notification on unsupported items](https://www.zabbix.com/documentation/3.2/manual/config/notifications/unsupported_item)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(131);)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+        [9 Macros](https://www.zabbix.com/documentation/3.2/manual/config/macros)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [1 Macro functions](https://www.zabbix.com/documentation/3.2/manual/config/macros/macro_functions)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [2 User macros](https://www.zabbix.com/documentation/3.2/manual/config/macros/usermacros)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [3 Low-level discovery macros](https://www.zabbix.com/documentation/3.2/manual/config/macros/lld_macros)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minusbottom.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(135);)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+        [10 Users and user groups](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/empty.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [1 Configuring a user](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups/user)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/empty.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [2 Permissions](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups/permissions)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/empty.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+        [3 User groups](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups/usergroup)
 
 
 
