@@ -162,7 +162,7 @@
       * [2 Inventory](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/inventory)
         * [1 Overview](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/inventory/overview)
         * [2 Hosts](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/inventory/hosts)
-        * [3 Reports](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports)
+      * [3 Reports](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports)
           * [1 Status of Zabbix](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports/status_of_zabbix)
           * [2 Availability report](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports/availability)
           * [3 Triggers top 100](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports/triggers_top)
@@ -170,214 +170,17 @@
           * [5 Action log](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports/action_log)
           * [6 Notifications](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/reports/notifications)
       * [4 Configuration](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-        [1 Host groups](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hostgroups)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-        [2 Templates](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/templates)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(193);)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
-
-        [3 Hosts](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [1 Applications](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/applications)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [2 Items](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/items)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/triggers)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [4 Graphs](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/graphs)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [5 Discovery rules](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/discovery)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [6 Web scenarios](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/web)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [4 Maintenance](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/maintenance)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [5 Actions](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/actions)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [6 Event correlation](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/correlation)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [7 Discovery](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/discovery)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-        ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-        [8 IT services](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/itservices)
-
-
-
+        * [1 Host groups](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hostgroups)
+        * [2 Templates](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/templates)
+        * [3 Hosts](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts)
+          * [1 Applications](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/applications)
+          * [2 Items](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/items)
+          * [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/triggers)
+          * [4 Graphs](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/graphs)
+          * [5 Discovery rules](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/discovery)
+          * [6 Web scenarios](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/hosts/web)
+      * [4 Maintenance](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/maintenance)
+      * [5 Actions](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/actions)
+      * [6 Event correlation](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/correlation)
+      * [7 Discovery](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/discovery)
+      * [8 IT services](https://www.zabbix.com/documentation/3.2/manual/web_interface/frontend_sections/configuration/itservices)
