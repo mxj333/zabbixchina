@@ -52,46 +52,10 @@
   * [4 Events](https://www.zabbix.com/documentation/3.2/manual/config/events)
   * [5 Event correlation](https://www.zabbix.com/documentation/3.2/manual/config/event_correlation)
   * [6 Visualisation](https://www.zabbix.com/documentation/3.2/manual/config/visualisation)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(110);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [7 Templates](https://www.zabbix.com/documentation/3.2/manual/config/templates)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(114);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [8 Notifications upon events](https://www.zabbix.com/documentation/3.2/manual/config/notifications)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(131);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [9 Macros](https://www.zabbix.com/documentation/3.2/manual/config/macros)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plusbottom.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(135)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [10 Users and user groups](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups)
+ * [7 Templates](https://www.zabbix.com/documentation/3.2/manual/config/templates)
+ * [8 Notifications upon events](https://www.zabbix.com/documentation/3.2/manual/config/notifications)
+  * [9 Macros](https://www.zabbix.com/documentation/3.2/manual/config/macros)
+  * [10 Users and user groups](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups)
 
   * [書籍內容樣式](styling/book.md)
 
