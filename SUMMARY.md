@@ -65,8 +65,9 @@
   * [8 Notifications upon events](manual/config/notifications.md)
   * [9 Macros](manual/config/macros.md)
   * [10 Users and user groups](manual/config/users_and_usergroups.md)
+  * 
 
-* [書籍內容樣式](styling/book.md)
+* ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)[7. IT services](https://www.zabbix.com/documentation/3.2/manual/it_services)
 
   * [書籍首頁樣式](#)
 
