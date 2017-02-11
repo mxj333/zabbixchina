@@ -105,6 +105,7 @@
     * [Configuring a network discovery](https://www.zabbix.com/documentation/3.2/manual/discovery/network_discovery/rule)
   * [2 Active agent auto-registration](https://www.zabbix.com/documentation/3.2/manual/discovery/auto_registration)
   * [3 Low-level discovery](https://www.zabbix.com/documentation/3.2/manual/discovery/low_level_discovery)
+    * [Notes on low-level discovery](https://www.zabbix.com/documentation/3.2/manual/discovery/low_level_discovery/notes)
 
 * [15. Distributed monitoring](https://www.zabbix.com/documentation/3.2/manual/distributed_monitoring)
 
