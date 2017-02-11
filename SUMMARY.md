@@ -168,6 +168,7 @@
   * [3 Global search](https://www.zabbix.com/documentation/3.2/manual/web_interface/global_search)
 
   * [4 Frontend maintenance mode](https://www.zabbix.com/documentation/3.2/manual/web_interface/maintenance_mode)
+
   * [5 Page parameters](https://www.zabbix.com/documentation/3.2/manual/web_interface/page_parameters)
   * [6 Definitions](https://www.zabbix.com/documentation/3.2/manual/web_interface/definitions)
   * [7 Creating your own theme](https://www.zabbix.com/documentation/3.2/manual/web_interface/theming)
@@ -175,6 +176,77 @@
 * [18. API](https://www.zabbix.com/documentation/3.2/manual/api)
 
   * [Method reference](https://www.zabbix.com/documentation/3.2/manual/api/reference)
+    * [Action](https://www.zabbix.com/documentation/3.2/manual/api/reference/action)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [&gt; Action object](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/object)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [action.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/create)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [action.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/delete)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [action.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/get)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+      ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+      [action.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/update)
   * [Appendix 1. Reference commentary](https://www.zabbix.com/documentation/3.2/manual/api/reference_commentary)
   * [Appendix 2. Changes from 3.0 to 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.0_-_3.2)
   * [Zabbix API changes in 3.2](https://www.zabbix.com/documentation/3.2/manual/api/changes_3.2)
