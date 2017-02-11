@@ -29,7 +29,54 @@
     * [4 New trigger](https://www.zabbix.com/documentation/3.2/manual/quickstart/trigger)
     * [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
     * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
-    * [5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
+  * [5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
+  * [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/minus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(47);)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderhopen.gif)
+
+    [1 Hosts and host groups](https://www.zabbix.com/documentation/3.2/manual/config/hosts)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [1 Configuring a host](https://www.zabbix.com/documentation/3.2/manual/config/hosts/host)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [2 Inventory](https://www.zabbix.com/documentation/3.2/manual/config/hosts/inventory)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
+
+    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
+
+    [3 Mass update](https://www.zabbix.com/documentation/3.2/manual/config/hosts/hostupdate)
 
 
 
