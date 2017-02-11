@@ -23,74 +23,13 @@
     * [11 Upgrade notes for 3.2.3](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_323)
     * [12 Upgrade notes for 3.2.4](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_324)
   * [4. Quickstart](https://www.zabbix.com/documentation/3.2/manual/quickstart)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [1 Login and configuring user](https://www.zabbix.com/documentation/3.2/manual/quickstart/login)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [2 New host](https://www.zabbix.com/documentation/3.2/manual/quickstart/host)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [3 New item](https://www.zabbix.com/documentation/3.2/manual/quickstart/item)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [4 New trigger](https://www.zabbix.com/documentation/3.2/manual/quickstart/trigger)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/joinbottom.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/page.gif)
-
-    [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
+    * [1 Login and configuring user](https://www.zabbix.com/documentation/3.2/manual/quickstart/login)
+    * [2 New host](https://www.zabbix.com/documentation/3.2/manual/quickstart/host)
+    * [3 New item](https://www.zabbix.com/documentation/3.2/manual/quickstart/item)
+    * [4 New trigger](https://www.zabbix.com/documentation/3.2/manual/quickstart/trigger)
+    * [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
+    * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
+    * [5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
 
 
 
