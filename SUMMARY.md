@@ -119,6 +119,9 @@
       * [1 Configuring a user](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups/user)
       * [2 Permissions](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups/permissions)
       * [3 User groups](https://www.zabbix.com/documentation/3.2/manual/config/users_and_usergroups/usergroup)
+    * [7. IT services](https://www.zabbix.com/documentation/3.2/manual/it_services)
+
+    * 
 
 
 
