@@ -68,7 +68,11 @@
 
 * [7. IT services](https://www.zabbix.com/documentation/3.2/manual/it_services)
 
-* [版面樣式](#)
+* [8. Web monitoring](https://www.zabbix.com/documentation/3.2/manual/web_monitoring)
+
+  [1 Web monitoring items](https://www.zabbix.com/documentation/3.2/manual/web_monitoring/items)
+
+  [2 Real life scenario](https://www.zabbix.com/documentation/3.2/manual/web_monitoring/example)
 
   * [書籍首頁樣式](#)
   * [書籍內容樣式](#)
