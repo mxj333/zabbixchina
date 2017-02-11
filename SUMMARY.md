@@ -39,15 +39,18 @@
   * [10 Upgrade notes for 3.2.2](manual/installation/upgrade_notes_322.md)
 
   * [11 Upgrade notes for 3.2.3](manual/installation/upgrade_notes_323.md)
+
   * [12 Upgrade notes for 3.2.4](manual/installation/upgrade_notes_324.md)
 
-* [整合 GitHub](github/README.md)
+* [4. Quickstart](https://www.zabbix.com/documentation/3.2/manual/quickstart)
 
   * [移轉內容到 GitHub](github/transferring_to_github.md)
 
 * [版面樣式](styling/README.md)
+
   * [書籍首頁樣式](styling/homepage.md)
   * [書籍內容樣式](styling/book.md)
+
 * [編輯界面](editor/README.md)
   * [草稿編輯流程](editor/draft.md)
   * [調整章節](editor/chapters.md)
