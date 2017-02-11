@@ -47,56 +47,11 @@
 * [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
 
   * [1 Hosts and host groups](https://www.zabbix.com/documentation/3.2/manual/config/hosts)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(51);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [2 Items](https://www.zabbix.com/documentation/3.2/manual/config/items)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(85);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/config/triggers)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(95);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [4 Events](https://www.zabbix.com/documentation/3.2/manual/config/events)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/join.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [5 Event correlation](https://www.zabbix.com/documentation/3.2/manual/config/event_correlation)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
-
-    [![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/plus.gif)](javascript: indexmenu_3375628257f69b0b3e631.o(99);\)
-
-    ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/folderh.gif)
-
-    [6 Visualisation](https://www.zabbix.com/documentation/3.2/manual/config/visualisation)
+ * [2 Items](https://www.zabbix.com/documentation/3.2/manual/config/items)
+ * [3 Triggers](https://www.zabbix.com/documentation/3.2/manual/config/triggers)
+  * [4 Events](https://www.zabbix.com/documentation/3.2/manual/config/events)
+  * [5 Event correlation](https://www.zabbix.com/documentation/3.2/manual/config/event_correlation)
+  * [6 Visualisation](https://www.zabbix.com/documentation/3.2/manual/config/visualisation)
 
     ![](https://www.zabbix.com/documentation/3.2/lib/plugins/indexmenu/images/thread/line.gif)
 
@@ -165,6 +120,7 @@
   * [重複帳號處理](account/duplicate.md)
 
 * [出版單位管理](platform/organizations/README.md)
+
   * [與單一作者的差異](platform/organizations/differences.md)
   * [作者歸屬轉換](platform/organizations/convert.md)
   * [移轉擁有權](platform/organizations/ownership.md)
