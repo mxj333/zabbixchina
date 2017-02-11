@@ -30,7 +30,7 @@
     * [5 Receiving problem notification](https://www.zabbix.com/documentation/3.2/manual/quickstart/notification)
     * [6 New template](https://www.zabbix.com/documentation/3.2/manual/quickstart/template)
   * [5. Zabbix appliance](https://www.zabbix.com/documentation/3.2/manual/appliance)
-   * [6. Configuration]  (https://www.zabbix.com/documentation/3.2/manual/config)
+   * [6. Configuration](https://www.zabbix.com/documentation/3.2/manual/config)
      * [1 Hosts and host groups](https://www.zabbix.com/documentation/3.2/manual/config/hosts)
        * [1 Configuring a host](https://www.zabbix.com/documentation/3.2/manual/config/hosts/host)
         * [2 Inventory](https://www.zabbix.com/documentation/3.2/manual/config/hosts/inventory)
