@@ -22,6 +22,7 @@
   * [1 Getting Zabbix](https://www.zabbix.com/documentation/3.2/manual/installation/getting_zabbix)
   * [2 Requirements](https://www.zabbix.com/documentation/3.2/manual/installation/requirements)
   * [3 Installation from packages](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages)
+    * [1 Repository installation](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/repository_installation)
   * [4 Installation from sources](manual/installation/install.md)
   * [5 Installation from containers](https://www.zabbix.com/documentation/3.2/manual/installation/containers)
   * [6 Upgrade procedure](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade)
