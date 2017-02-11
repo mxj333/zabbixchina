@@ -19,12 +19,11 @@
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
 * [3. Installation](manual/installation/index.md)
-  * [1 Getting Zabbix](https://www.zabbix.com/documentation/3.2/manual/installation/getting_zabbix)
-  * [2 Requirements](https://www.zabbix.com/documentation/3.2/manual/installation/requirements)
-  * [3 Installation from packages](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages)
-    * [1 Repository installation](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/repository_installation)
-
-    [2 Server installat](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_mysql)
+  * [1 Getting Zabbix](manual/installation/getting_zabbix.md)
+  * [2 Requirements](manual/installation/requirements.md)
+  * [3 Installation from packages](manual/installation/install_from_packages.md)
+    * [1 Repository installation](manual/installation/install_from_packages/repository_installation.md)
+    * [2 Server installation with MySQL database](manual/installation/install_from_packages/server_installation_with_mysql.md)
 
   * [4 Installation from sources](manual/installation/install.md)
 
