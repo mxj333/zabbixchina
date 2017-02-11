@@ -1,3 +1,8 @@
+
+---
+
+---
+
 # Summary
 
 * [简介](README.md)
@@ -301,12 +306,13 @@
       * [iconmap.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/isreadable)
       * [iconmap.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/iswritable)
       * [iconmap.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/iconmap/update)
+
     * [Image](https://www.zabbix.com/documentation/3.2/manual/api/reference/image)
-    * [&gt; Image object](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/object)
-    * [image.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/create)
-    * [image.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/delete)
-    * [image.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/get)
-    * [image.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/update)
+      * [&gt; Image object](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/object)
+      * [image.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/create)
+      * [image.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/delete)
+      * [image.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/get)
+      * [image.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/update)
     * 
 
 * [Appendix 1. Reference commentary](manual/api/reference_commentary.md)
