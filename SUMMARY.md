@@ -19,7 +19,6 @@
   * [6 Sender](format/cover.md)
   * [7 Get](format/languages.md)
 * [3. Installation](manual/installation/index.md)
-
   * [1 Getting Zabbix](manual/installation/getting_zabbix.md)
   * [2 Requirements](manual/installation/requirements.md)
   * [3 Installation from packages](manual/installation/install_from_packages.md)
@@ -33,17 +32,14 @@
   * [6 Upgrade procedure](manual/installation/upgrade.md)
   * [7 Known issues](manual/installation/known_issues.md)
   * [8 Template changes](https://www.zabbix.com/documentation/3.2/manual/installation/template_changes)
-
   * [9 Upgrade notes for 3.2.0](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade_notes_320)
-
   * [10 Upgrade notes for 3.2.2](manual/installation/upgrade_notes_322.md)
-
   * [11 Upgrade notes for 3.2.3](manual/installation/upgrade_notes_323.md)
-
   * [12 Upgrade notes for 3.2.4](manual/installation/upgrade_notes_324.md)
-
 * [4. Quickstart](https://www.zabbix.com/documentation/3.2/manual/quickstart)
-
+  * [移轉內容到 GitHub](github/transferring_to_github.md)
+  * [移轉內容到 GitHub](github/transferring_to_github.md)
+  * [移轉內容到 GitHub](github/transferring_to_github.md)
   * [移轉內容到 GitHub](github/transferring_to_github.md)
 
 * [版面樣式](styling/README.md)
