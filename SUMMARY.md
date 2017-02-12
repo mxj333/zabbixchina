@@ -291,6 +291,12 @@
         * [hostgroup.massremove](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostgroup/massremove)
         * [hostgroup.massupdate](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostgroup/massupdate)
         * [hostgroup.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostgroup/update)
-
-
-
+      * [Host interface](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface)
+        * [&gt; Host interface object](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/object)
+        * [hostinterface.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/create)
+        * [hostinterface.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/delete)
+        * [hostinterface.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/get)
+        * [hostinterface.massadd](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massadd)
+        * [hostinterface.massremove](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/massremove)
+        * [hostinterface.replacehostinterfaces](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/replacehostinterfaces)
+        * [hostinterface.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/hostinterface/update)
