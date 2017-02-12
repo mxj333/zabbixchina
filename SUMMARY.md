@@ -366,6 +366,23 @@
         * [maintenance.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/delete)
         * [maintenance.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/get)
         * [maintenance.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/update)
+      * [Map](https://www.zabbix.com/documentation/3.2/manual/api/reference/map)
+        * [&gt; Map object](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/object)
+        * [map.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/create)
+        * [map.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/delete)
+        * [map.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/get)
+        * [map.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/isreadable)
+        * [map.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/iswritable)
+        * [map.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/map/update)
+      * [Media](https://www.zabbix.com/documentation/3.2/manual/api/reference/usermedia)
+        * [&gt; Media object](https://www.zabbix.com/documentation/3.2/manual/api/reference/usermedia/object)
+        * [usermedia.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/usermedia/get)
+      * [Media type](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype)
+        * [&gt; Media type object](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/object)
+        * [mediatype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/create)
+        * [mediatype.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/delete)
+        * [mediatype.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/get)
+
 
 
 
