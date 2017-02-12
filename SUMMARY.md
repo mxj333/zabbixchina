@@ -437,3 +437,6 @@
         * [templatescreen.isreadable](/documentation/3.2/manual/api/reference/templatescreen/isreadable)
         * [templatescreen.iswritable](/documentation/3.2/manual/api/reference/templatescreen/iswritable)
         * [templatescreen.update](/documentation/3.2/manual/api/reference/templatescreen/update)
+      * [Template screen item](/documentation/3.2/manual/api/reference/templatescreenitem )
+        * [&gt; Template screen item object](/documentation/3.2/manual/api/reference/templatescreenitem/object)
+        * [templatescreenitem.get](/documentation/3.2/manual/api/reference/templatescreenitem/get)      
