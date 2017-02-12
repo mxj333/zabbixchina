@@ -360,3 +360,12 @@
         * [discoveryrule.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/discoveryrule/isreadable)
         * [discoveryrule.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/discoveryrule/iswritable)
         * [discoveryrule.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/discoveryrule/update)
+      * [Maintenance](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance)
+        * [&gt; Maintenance object](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/object)
+        * [maintenance.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/create)
+        * [maintenance.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/delete)
+        * [maintenance.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/get)
+        * [maintenance.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/maintenance/update)
+
+
+
