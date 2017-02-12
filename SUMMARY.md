@@ -322,3 +322,22 @@
         * [image.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/delete)
         * [image.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/get)
         * [image.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/image/update)
+      * [Item](https://www.zabbix.com/documentation/3.2/manual/api/reference/item)
+        * [&gt; Item object](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/object)
+        * [item.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/create)
+        * [item.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/delete)
+        * [item.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/get)
+        * [item.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/isreadable)
+        * [item.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/iswritable)
+        * [item.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/item/update)
+      * [Item prototype](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype)
+        * [&gt; Item prototype object](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/object)
+        * [itemprototype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/create)
+        * [itemprototype.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/delete)
+        * [itemprototype.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/get)
+        * [itemprototype.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/isreadable)
+        * [itemprototype.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/iswritable)
+        * [itemprototype.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/itemprototype/update)
+
+
+
