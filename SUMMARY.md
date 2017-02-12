@@ -382,7 +382,20 @@
         * [mediatype.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/create)
         * [mediatype.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/delete)
         * [mediatype.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/mediatype/get)
-
-
-
-
+      * [Problem](https://www.zabbix.com/documentation/3.2/manual/api/reference/problem)
+        * [&gt; Problem object](https://www.zabbix.com/documentation/3.2/manual/api/reference/problem/object)
+        * [problem.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/problem/get)
+      * [Proxy](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy)
+        * [&gt; Proxy object](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/object)
+        * [proxy.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/create)
+        * [proxy.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/delete)
+        * [proxy.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/get)
+        * [proxy.isreadable](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/isreadable)
+        * [proxy.iswritable](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/iswritable)
+        * [proxy.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/update)
+      * [Screen](https://www.zabbix.com/documentation/3.2/manual/api/reference/screen)
+        * [&gt; Screen object](https://www.zabbix.com/documentation/3.2/manual/api/reference/screen/object)
+        * [screen.create](https://www.zabbix.com/documentation/3.2/manual/api/reference/screen/create)
+        * [screen.delete](https://www.zabbix.com/documentation/3.2/manual/api/reference/screen/delete)
+        * [screen.get](https://www.zabbix.com/documentation/3.2/manual/api/reference/screen/get)
+        * [screen.update](https://www.zabbix.com/documentation/3.2/manual/api/reference/screen/update)
