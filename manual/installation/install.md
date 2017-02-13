@@ -31,15 +31,15 @@ useradd -g zabbix zabbix
 
 Zabbix前端安装不需要单独的用户帐户。
 
-如果Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和[agent](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)在同一台机器上运行，则建议使用不同的用户来运行服务器，而不是运行agent。否则，如果两者都作为同一用户运行，则agent可以访问服务器配置文件，并且Zabbix中的任何管理级别用户可以很容易地检索例如数据库密码。
+如果Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)\( 即 zabbix agent\)在同一台机器上运行，则建议使用不同的用户来运行服务器，而不是运行agent。否则，如果两者都作为同一用户运行，则agent可以访问服务器配置文件，并且Zabbix中的任何管理级别用户可以很容易地检索例如数据库密码。
 
 ```
     将Zabbix作为root，bin或任何其他具有特殊权限的帐户运行是一种安全风险。
 ```
 
-##### 3创建Zabbix数据库 {#create_zabbix_database}
+##### 3 创建Zabbix数据库 {#create_zabbix_database}
 
-对于Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/proxy)守护程序，以及Zabbix前端，需要一个数据库。它不需要运行Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)。
+对于Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/proxy)守护程序，以及Zabbix前端，需要一个数据库。它不需要运行Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)。
 
 [提供](https://www.zabbix.com/documentation/3.2/manual/appendix/install/db_scripts)SQL[脚本](https://www.zabbix.com/documentation/3.2/manual/appendix/install/db_scripts)用于创建数据库模式和插入数据集。Zabbix代理数据库只需要模式，而Zabbix服务器数据库还需要在模式顶部的数据集。
 
@@ -61,20 +61,9 @@ Zabbix前端安装不需要单独的用户帐户。
 ./configure --enable-server --enable-agent --with-mysql --enable-ipv6 --with-net-snmp --with-libcurl --with-libxml2
 ```
 
-
-
-
-
 --with-libcurl配置选项与cURL 7.20.0或更高版本需要SMTP认证，支持自Zabbix 3.0.0。
 
-  
-
-
 --with-libcurl和--with-libxml2配置选项是虚拟机监视所必需的，从Zabbix 2.2.0开始支持。
-
-
-
-
 
 要配置Zabbix服务器（使用PostgreSQL等）的源，您可以运行：
 
@@ -96,35 +85,13 @@ Zabbix前端安装不需要单独的用户帐户。
 
 您可以使用--enable-static标志来静态链接库。如果计划在不同服务器之间分发已编译的二进制文件，则必须使用此标志使这些二进制文件在不需要库的情况下工作。请注意，--enable-static[在Solaris下不起作用](http://blogs.sun.com/rie/entry/static_linking_where_did_it)。
 
-
-
-
-
 在构建服务器时不建议使用--enable-static选项。
-
-
 
 为了静态构建服务器，您必须具有所需的每个外部库的静态版本。在配置脚本中没有严格的检查。
 
-
-
-
-
-
-
-
-
 如果使用了--enable-agent选项，则编译命令行实用程序zabbix\_get和zabbix\_sender。
 
-
-
-
-
-
-
-
-
-添加可选路径到MySQL配置文件--with-mysql = / 
+添加可选路径到MySQL配置文件--with-mysql = /
 
 &lt;
 
@@ -132,19 +99,9 @@ path\_to\_the\_file
 
 &gt;
 
- / mysql\_config，以便在需要使用不在默认位置的MySQL客户端库时选择所需的MySQL客户端库。
-
-
+/ mysql\_config，以便在需要使用不在默认位置的MySQL客户端库时选择所需的MySQL客户端库。
 
 当MySQL安装了多个版本或MariaDB安装在同一系统上的MySQL时，这是有用的。
-
-
-
-
-
-
-
-
 
 使用--with-ibm-db2标志来指定CLI
 
@@ -154,9 +111,6 @@ API的
 
 。
 
-  
-
-
 使用--with-oracle标志来指定OCI
 
 API的
@@ -165,27 +119,13 @@ API的
 
 。
 
-
-
-
-
 有关加密支持，请参阅[使用加密支持编译Zabbix](https://www.zabbix.com/documentation/3.2/manual/encryption#compiling_zabbix_with_encryption_support)。
 
 ##### 5制作并安装一切 {#make_and_install_everything}
 
-
-
-
-
 如果从SVN安装，需要先运行：
 
-
-
 `$ make dbschema`
-
-
-
-
 
 ```
 make install
@@ -194,10 +134,6 @@ make install
 此步骤应以具有足够权限（通常为“root”或通过使用`sudo`）的用户身份运行。
 
 运行`make install`将默认情况下将守护程序二进制文件（zabbix\_server，zabbix\_agentd，zabbix\_proxy）安装在/ usr / local / sbin中，并将客户端二进制文件（zabbix\_get，zabbix\_sender）安装在/ usr / local / bin中。
-
-
-
-
 
 要指定与/ usr / local不同的位置，请在配置源的上一步中使用--prefix键，例如--prefix = / home / zabbix。
 
@@ -209,7 +145,7 @@ prefix
 
 &gt;
 
- / sbin下，而实用程序在
+/ sbin下，而实用程序在
 
 &lt;
 
@@ -217,7 +153,7 @@ prefix
 
 &gt;
 
- / bin下安装。
+/ bin下安装。
 
 手册页将安装在
 
@@ -227,11 +163,7 @@ prefix
 
 &gt;
 
- / share下。
-
-
-
-
+/ share下。
 
 ##### 6查看和编辑配置文件 {#review_and_edit_configuration_files}
 
@@ -247,17 +179,9 @@ prefix
 
 您必须指定数据库名称，用户和密码（如果使用任何）。
 
-
-
-
-
 使用SQLite必须指定数据库文件的完整路径;
 
 不需要DB用户和密码。
-
-
-
-
 
 如果您有小型安装（最多十个受监控的主机），其余参数将适合您的默认值。如果想要最大化Zabbix服务器（或代理）的性能，您应该更改默认参数。有关更多详细信息，请参阅[性能调优](https://www.zabbix.com/documentation/3.2/manual/appendix/performance_tuning)部分。
 
@@ -266,17 +190,9 @@ prefix
 
 您必须指定服务器IP地址和代理主机名（必须为服务器所知），以及数据库名称，用户和密码（如果使用任何）。
 
-
-
-
-
 使用SQLite必须指定数据库文件的完整路径;
 
 不需要DB用户和密码。
-
-
-
-
 
 ##### 7启动守护程序 {#start_up_the_daemons}
 
@@ -287,10 +203,6 @@ shell
 >
  zabbix_server
 ```
-
-
-
-
 
 确保您的系统允许分配36MB（或更多）的共享内存，否则服务器可能无法启动，您将在服务器日志文件中看到“无法为
 
@@ -304,9 +216,6 @@ shell
 
 这可能发生在FreeBSD，Solaris 8上。
 
-  
-
-
 请参见
 
 本页底部
@@ -317,10 +226,6 @@ shell
 
 一节，了解如何配置共享内存。
 
-
-
-
-
 在所有受监视的计算机上运行zabbix\_agentd。
 
 ```
@@ -329,17 +234,9 @@ shell
  zabbix_agentd
 ```
 
-
-
-
-
 确保您的系统允许分配2MB的共享内存，否则代理可能无法启动，您将在代理日志文件中看到“无法为收集器分配共享内存”。
 
 这可能发生在Solaris 8上。
-
-
-
-
 
 如果已安装Zabbix代理，请运行zabbix\_proxy。
 
@@ -388,10 +285,6 @@ locale / make_mo.sh
 
 `msgfmt`从gettext包实用程序是必需的。
 
-
-
-
-
 此外，要使用除英语以外的任何其他语言，其语言环境应安装在Web服务器上。
 
 有关详细信息，
@@ -405,10 +298,6 @@ locale / make_mo.sh
 [“参见”](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile#see_also)
 
 部分，了解如何安装。
-
-
-
-
 
 ##### 安装前端 {#installing_frontend}
 
@@ -451,17 +340,9 @@ locale / make_mo.sh
 
 可选的先决条件也可以存在于列表中。失败的可选先决条件显示为橙色，并显示_警告_状态。使用失败的可选先决条件，设置可以继续。
 
-
-
-
-
 如果需要更改Apache用户或用户组，则必须验证对会话文件夹的权限。
 
 否则Zabbix安装可能无法继续。
-
-
-
-
 
 ##### 步骤3 {#step_3}
 
@@ -489,15 +370,7 @@ locale / make_mo.sh
 
 [![](https://www.zabbix.com/documentation/3.2/_media/manual/installation/saving_zabbix_conf.png?w=350&tok=329cb9)](https://www.zabbix.com/documentation/3.2/_detail/manual/installation/saving_zabbix_conf.png?id=manual%3Ainstallation%3Ainstall)
 
-
-
-
-
 为web服务器用户提供对conf /目录的写访问，配置文件将被自动保存，并且可以立即进行到下一步。
-
-
-
-
 
 ##### 步骤7 {#step_7}
 
