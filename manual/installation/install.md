@@ -31,9 +31,10 @@ useradd -g zabbix zabbix
 
 Zabbix前端安装不需要单独的用户帐户。
 
-如果Zabbix服务器和代理服务器是运行在同一台机器，建议使用不同的用户运行服务器和运行代理。否则，如果两者都运行相同的用户，代理可以访问服务器的配置文件，在Zabbix的任何管理员级别的用户可以很容易地检索，例如，数据库密码。
+如果Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和[agent](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)在同一台机器上运行，则建议使用不同的用户来运行服务器，而不是运行agent。否则，如果两者都作为同一用户运行，则agent可以访问服务器配置文件，并且Zabbix中的任何管理级别用户可以很容易地检索例如数据库密码。
 
-如果Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和[agent](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)在同一台机器上运行，则建议使用不同的用户来运行服务器，而不是运行agent。
+```
+    将Zabbix作为root，bin或任何其他具有特殊权限的帐户运行是一种安全风险。
+```
 
-否则，如果两者都作为同一用户运行，则agent可以访问服务器配置文件，并且Zabbix中的任何管理级别用户可以很容易地检索例如数据库密码。
 
