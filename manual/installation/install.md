@@ -8,14 +8,14 @@
 
 ##### 1 下载源文件 {#download_the_source_archive}
 
- 请前往 [Zabbix download page](http://www.zabbix.com/download.php)下载源归档文件。下载后，通过运行以下命令提取源：
+请前往 [Zabbix download page](http://www.zabbix.com/download.php)下载源归档文件。下载后，通过运行以下命令提取源：
 
 ```
 $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
 ```
-Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
+在命令中输入正确的Zabbix版本。它必须与下载的存档的名称相匹配。
 ```
 
 ##### 2 创建用户账号 {#create_user_account}
