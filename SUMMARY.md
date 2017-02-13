@@ -450,9 +450,11 @@
         * [trigger.isreadable](/documentation/3.2/manual/api/reference/trigger/isreadable)
         * [trigger.iswritable](/documentation/3.2/manual/api/reference/trigger/iswritable)
         * [trigger.update](/documentation/3.2/manual/api/reference/trigger/update)
-      * [&gt; Trigger prototype object](/documentation/3.2/manual/api/reference/triggerprototype/object)
+      * [Trigger prototype](https://www.zabbix.com/documentation/3.2/manual/api/reference/triggerprototype)
+        * [&gt; Trigger prototype object](/documentation/3.2/manual/api/reference/triggerprototype/object)
         * [triggerprototype.create](/documentation/3.2/manual/api/reference/triggerprototype/create)
         * [triggerprototype.delete](/documentation/3.2/manual/api/reference/triggerprototype/delete)
         * [triggerprototype.get](/documentation/3.2/manual/api/reference/triggerprototype/get)
         * [triggerprototype.update](/documentation/3.2/manual/api/reference/triggerprototype/update)
-    
+      * [User](https://www.zabbix.com/documentation/3.2/manual/api/reference/user)
+        * [&gt; User object](https://www.zabbix.com/documentation/3.2/manual/api/reference/user/object)
