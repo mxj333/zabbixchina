@@ -83,45 +83,33 @@ Zabbix前端安装不需要单独的用户帐户。
 ./configure --enable-agent
 ```
 
-您可以使用--enable-static标志来静态链接库。如果计划在不同服务器之间分发已编译的二进制文件，则必须使用此标志使这些二进制文件在不需要库的情况下工作。请注意，--enable-static[在Solaris下不起作用](http://blogs.sun.com/rie/entry/static_linking_where_did_it)。
+您可以使用--enable-static标志来静态链接库。
+
+如果计划在不同服务器之间分发已编译的二进制文件，则必须使用此标志使这些二进制文件在不需要库的情况下工作。
+
+请注意，--enable-static[在Solaris下不起作用](http://blogs.sun.com/rie/entry/static_linking_where_did_it)。
 
 在构建服务器时不建议使用--enable-static选项。
+
+
 
 为了静态构建服务器，您必须具有所需的每个外部库的静态版本。在配置脚本中没有严格的检查。
 
 如果使用了--enable-agent选项，则编译命令行实用程序zabbix\_get和zabbix\_sender。
 
-添加可选路径到MySQL配置文件--with-mysql = /
-
-&lt;
-
-path\_to\_the\_file
-
-&gt;
-
-/ mysql\_config，以便在需要使用不在默认位置的MySQL客户端库时选择所需的MySQL客户端库。
+添加可选路径到MySQL配置文件 --with-mysql=/&lt;path\_to\_the\_file&gt;/mysql\_config，以便在需要使用不在默认位置的MySQL客户端库时选择所需的MySQL客户端库。
 
 当MySQL安装了多个版本或MariaDB安装在同一系统上的MySQL时，这是有用的。
 
-使用--with-ibm-db2标志来指定CLI
+使用--with-ibm-db2标志来指定CLI API的位置。
 
-API的
-
-位置
-
-。
-
-使用--with-oracle标志来指定OCI
-
-API的
-
-位置
-
-。
+使用--with-oracle标志来指定OCI API的位置。
 
 有关加密支持，请参阅[使用加密支持编译Zabbix](https://www.zabbix.com/documentation/3.2/manual/encryption#compiling_zabbix_with_encryption_support)。
 
-##### 5制作并安装一切 {#make_and_install_everything}
+#####  {#make_and_install_everything}
+
+##### 5 制作并安装一切 {#make_and_install_everything}
 
 如果从SVN安装，需要先运行：
 
@@ -133,39 +121,15 @@ make install
 
 此步骤应以具有足够权限（通常为“root”或通过使用`sudo`）的用户身份运行。
 
-运行`make install`将默认情况下将守护程序二进制文件（zabbix\_server，zabbix\_agentd，zabbix\_proxy）安装在/ usr / local / sbin中，并将客户端二进制文件（zabbix\_get，zabbix\_sender）安装在/ usr / local / bin中。
+运行`make install`将默认情况下将守护程序二进制文件（zabbix\_server，zabbix\_agentd，zabbix\_proxy）安装在 /usr/local/sbin中，并将客户端二进制文件（zabbix\_get，zabbix\_sender）安装在/usr/local/bin中。
 
-要指定与/ usr / local不同的位置，请在配置源的上一步中使用--prefix键，例如--prefix = / home / zabbix。
+要指定与 /usr/local不同的位置，请在配置源的上一步中使用--prefix，例如 --prefix=/home/zabbix。
 
-在这种情况下，守护程序二进制文件将安装在
+在这种情况下，守护程序二进制文件将安装在 &lt;prefix&gt;/sbin下，而实用程序在 &lt;prefix&gt;/bin下安装。
 
-&lt;
+手册页将安装在 &lt;prefix&gt;/share下。
 
-prefix
-
-&gt;
-
-/ sbin下，而实用程序在
-
-&lt;
-
-prefix
-
-&gt;
-
-/ bin下安装。
-
-手册页将安装在
-
-&lt;
-
-prefix
-
-&gt;
-
-/ share下。
-
-##### 6查看和编辑配置文件 {#review_and_edit_configuration_files}
+##### 6 查看和编辑配置文件 {#review_and_edit_configuration_files}
 
 * 编辑Zabbix代理配置文件
   **/usr/local/etc/zabbix\_agentd.conf**
@@ -194,59 +158,33 @@ prefix
 
 不需要DB用户和密码。
 
-##### 7启动守护程序 {#start_up_the_daemons}
+##### 7 启动守护程序 {#start_up_the_daemons}
 
 在服务器端运行zabbix\_server。
 
 ```
-shell
->
- zabbix_server
+shell> zabbix_server
 ```
 
-确保您的系统允许分配36MB（或更多）的共享内存，否则服务器可能无法启动，您将在服务器日志文件中看到“无法为
+确保您的系统允许分配36MB（或更多）的共享内存，否则服务器可能无法启动，您将在服务器日志文件中看到“无法为&lt;缓存类型&gt;分配共享内存”。这可能发生在FreeBSD，Solaris 8上。
 
-&lt;
-
-缓存类型
-
-&gt;
-
-分配共享内存”。
-
-这可能发生在FreeBSD，Solaris 8上。
-
-请参见
-
-本页底部
-
-的
-
-[“另请参见”](https://www.zabbix.com/documentation/3.2/manual/installation/install#see_also)
-
-一节，了解如何配置共享内存。
+请参见本页底部的[“另请参见”](https://www.zabbix.com/documentation/3.2/manual/installation/install#see_also)一节，了解如何配置共享内存。
 
 在所有受监视的计算机上运行zabbix\_agentd。
 
 ```
-shell
->
- zabbix_agentd
+shell> zabbix_agentd
 ```
 
-确保您的系统允许分配2MB的共享内存，否则代理可能无法启动，您将在代理日志文件中看到“无法为收集器分配共享内存”。
-
-这可能发生在Solaris 8上。
+确保您的系统允许分配2MB的共享内存，否则代理可能无法启动，您将在代理日志文件中看到“无法为收集器分配共享内存”。这可能发生在Solaris 8上。
 
 如果已安装Zabbix代理，请运行zabbix\_proxy。
 
 ```
-shell
->
- zabbix_proxy
+shell> zabbix_proxy
 ```
 
-#### 2安装Zabbix Web界面 {#installing_zabbix_web_interface}
+#### 2 安装Zabbix Web界面 {#installing_zabbix_web_interface}
 
 ##### 复制PHP文件 {#copying_php_files}
 
