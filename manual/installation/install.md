@@ -39,13 +39,13 @@ Zabbix前端安装不需要单独的用户帐户。
 
 ##### 3 创建Zabbix数据库 {#create_zabbix_database}
 
-对于Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/proxy)守护程序，以及Zabbix前端，需要一个数据库。它不需要运行Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)。
+对于Zabbix[服务器](https://www.zabbix.com/documentation/3.2/manual/concepts/server)和[proxy](https://www.zabbix.com/documentation/3.2/manual/concepts/proxy) 守护程序，以及Zabbix前端，需要一个数据库。它不需要运行Zabbix[代理](https://www.zabbix.com/documentation/3.2/manual/concepts/agent)。
 
-[提供](https://www.zabbix.com/documentation/3.2/manual/appendix/install/db_scripts)SQL[脚本](https://www.zabbix.com/documentation/3.2/manual/appendix/install/db_scripts)用于创建数据库模式和插入数据集。Zabbix代理数据库只需要模式，而Zabbix服务器数据库还需要在模式顶部的数据集。
+[提供](https://www.zabbix.com/documentation/3.2/manual/appendix/install/db_scripts)的SQL[脚本](https://www.zabbix.com/documentation/3.2/manual/appendix/install/db_scripts)用于创建数据库结构和插入数据。Zabbix代理数据库只需要结构，而Zabbix服务器数据库还需要数据集。
 
 创建Zabbix数据库后，继续执行以下编译Zabbix的步骤。
 
-##### 4配置源 {#configure_the_sources}
+##### 4 配置源 {#configure_the_sources}
 
 配置Zabbix服务器或代理的源时，必须指定要使用的数据库类型。一次只能使用服务器或代理进程编译一个数据库类型。
 
@@ -61,11 +61,11 @@ Zabbix前端安装不需要单独的用户帐户。
 ./configure --enable-server --enable-agent --with-mysql --enable-ipv6 --with-net-snmp --with-libcurl --with-libxml2
 ```
 
---with-libcurl配置选项与cURL 7.20.0或更高版本需要SMTP认证，支持自Zabbix 3.0.0。
+--with-libcurl 配置选项与cURL 7.20.0或更高版本需要SMTP认证，支持自Zabbix 3.0.0。
 
---with-libcurl和--with-libxml2配置选项是虚拟机监视所必需的，从Zabbix 2.2.0开始支持。
+--with-libcurl 和 --with-libxml2 配置选项是虚拟机监视所必需的，从Zabbix 2.2.0开始支持。
 
-要配置Zabbix服务器（使用PostgreSQL等）的源，您可以运行：
+要配置Zabbix服务器（使用PostgreSQL）的源，您可以运行：
 
 ```
 ./configure --enable-server --with-postgresql --with-net-snmp
@@ -74,7 +74,7 @@ Zabbix前端安装不需要单独的用户帐户。
 要配置Zabbix代理的源（使用SQLite等），您可以运行：
 
 ```
-./configure --prefix = / usr --enable-proxy --with-net-snmp --with-sqlite3 --with-ssh2
+./configure --prefix=/usr --enable-proxy --with-net-snmp --with-sqlite3 --with-ssh2
 ```
 
 要配置Zabbix代理的源，您可以运行：
