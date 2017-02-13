@@ -4,7 +4,7 @@
 * [Zabbix Manual](https://www.zabbix.com/documentation/3.2/manual)
   * [1. Introduction](https://www.zabbix.com/documentation/3.2/manual/introduction)
   * [2. Zabbix concepts](https://www.zabbix.com/documentation/3.2/manual/concepts)
-  * [3. Installation\(安装\)](manual/installation.md)
+  * [3. Installation\(安装\)](manual/installation/README.md)
     * [1 Getting Zabbix](https://www.zabbix.com/documentation/3.2/manual/installation/getting_zabbix)
     * [2 Requirements](https://www.zabbix.com/documentation/3.2/manual/installation/requirements)
     * [3 Installation from packages](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages)
