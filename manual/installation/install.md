@@ -1,4 +1,4 @@
-### 4 Installation from sources {#installation_from_sources}
+### 4 [从源安装](https://www.zabbix.com/documentation/3.2/manual/installation/install) {#installation_from_sources}
 
 你可以通过源编译安装Zabbix的最新版。
 
@@ -14,7 +14,7 @@ Go to the[Zabbix download page](http://www.zabbix.com/download.php)and download 
 $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
-``` 
+```
 Enter the correct Zabbix version in the command. It must match the name of the downloaded archive.
 ```
 

@@ -13,7 +13,7 @@
       * [3 Server installation with PostgreSQL database](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/server_installation_with_postgresql)
       * [4 Agent installation](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/agent_installation)
       * [5 Proxy installation](https://www.zabbix.com/documentation/3.2/manual/installation/install_from_packages/proxy_installation)
-    * [4 Installation from sources](https://www.zabbix.com/documentation/3.2/manual/installation/install)
+    * [4 Installation from sources\(从源安装\)](manual/installation/install.md)
     * [5 Installation from containers](https://www.zabbix.com/documentation/3.2/manual/installation/containers)
     * [6 Upgrade procedure](https://www.zabbix.com/documentation/3.2/manual/installation/upgrade)
     * [7 Known issues](https://www.zabbix.com/documentation/3.2/manual/installation/known_issues)
