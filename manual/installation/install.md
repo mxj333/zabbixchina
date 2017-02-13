@@ -14,9 +14,8 @@
 $ tar -zxvf zabbix-3.2.0.tar.gz
 ```
 
-```
-在命令中输入正确的Zabbix版本。它必须与下载的存档的名称相匹配。
-```
+[](https://www.zabbix.com/documentation/3.2/lib/plugins/note/images/tip.png)在命令中输入正确的Zabbix版本。它必须与下载的存档的名称相匹配。
+
 
 ##### 2 创建用户账号 {#create_user_account}
 
