@@ -8,7 +8,7 @@
 
 ##### 1 下载源文件 {#download_the_source_archive}
 
-Go to the[Zabbix download page](http://www.zabbix.com/download.php)and download the source archive. Once downloaded, extract the sources, by running:
+ 请前往 [Zabbix download page](http://www.zabbix.com/download.php)下载源归档文件。下载后，通过运行以下命令提取源：
 
 ```
 $ tar -zxvf zabbix-3.2.0.tar.gz
