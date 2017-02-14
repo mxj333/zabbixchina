@@ -278,13 +278,13 @@ locale/make_mo.sh
 
 ##### 步骤6 {#step_6}
 
-下载配置文件并将其放在conf /下您复制Zabbix PHP文件的webserverHTML文件子目录中。
+下载配置文件并将其放在conf/下您复制Zabbix PHP文件的webserverHTML文件子目录中。
 
 [![](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_6.png?w=550&tok=4664a0)](https://www.zabbix.com/documentation/3.2/_detail/manual/installation/install_6.png?id=manual%3Ainstallation%3Ainstall)
 
 [![](https://www.zabbix.com/documentation/3.2/_media/manual/installation/saving_zabbix_conf.png?w=350&tok=329cb9)](https://www.zabbix.com/documentation/3.2/_detail/manual/installation/saving_zabbix_conf.png?id=manual%3Ainstallation%3Ainstall)
 
-为web服务器用户提供对conf /目录的写访问，配置文件将被自动保存，并且可以立即进行到下一步。
+为web服务器用户提供对conf/目录的写访问，配置文件将被自动保存，并且可以立即进行到下一步。
 
 ##### 步骤7 {#step_7}
 
