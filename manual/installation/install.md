@@ -217,7 +217,7 @@ locale/make_mo.sh
 
 ##### 步骤1 {#step_1}
 
-在浏览器中，打开ZabbixURL：http://&lt;server\_ip\_or\_name&gt;/zabbix
+在浏览器中，打开ZabbixURL：[http://&lt;server\\_ip\\_or\\_name&gt;/zabbix](http://&lt;server\_ip\_or\_name&gt;/zabbix)
 
 您应该看到前端安装向导的第一个屏幕。
 
@@ -231,7 +231,7 @@ locale/make_mo.sh
 
 | 先决条件 | 最小值 | 描述 |
 | :--- | :--- | :--- |
-| _PHP版本_ | 5.4.0 |  |
+| _PHP version \(PHP版本\)_ | 5.4.0 |  |
 | _PHP memory\_limit选项_ | 128MB | 在php.ini： memory\_limit = 128M |
 | _PHP post\_max\_size选项_ | 16MB | 在php.ini中： post\_max\_size = 16M |
 | _PHP upload\_max\_filesize选项_ | 2MB | 在php.ini中： upload\_max\_filesize = 2M |
