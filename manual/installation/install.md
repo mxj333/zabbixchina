@@ -91,8 +91,6 @@ Zabbix前端安装不需要单独的用户帐户。
 
 在构建服务器时不建议使用--enable-static选项。
 
-
-
 为了静态构建服务器，您必须具有所需的每个外部库的静态版本。在配置脚本中没有严格的检查。
 
 如果使用了--enable-agent选项，则编译命令行实用程序zabbix\_get和zabbix\_sender。
@@ -143,9 +141,7 @@ make install
 
 您必须指定数据库名称，用户和密码（如果使用任何）。
 
-使用SQLite必须指定数据库文件的完整路径;
-
-不需要DB用户和密码。
+使用SQLite必须指定数据库文件的完整路径，不需要DB用户和密码。
 
 如果您有小型安装（最多十个受监控的主机），其余参数将适合您的默认值。如果想要最大化Zabbix服务器（或代理）的性能，您应该更改默认参数。有关更多详细信息，请参阅[性能调优](https://www.zabbix.com/documentation/3.2/manual/appendix/performance_tuning)部分。
 
@@ -154,9 +150,7 @@ make install
 
 您必须指定服务器IP地址和代理主机名（必须为服务器所知），以及数据库名称，用户和密码（如果使用任何）。
 
-使用SQLite必须指定数据库文件的完整路径;
-
-不需要DB用户和密码。
+使用SQLite必须指定数据库文件的完整路径；不需要DB用户和密码。
 
 ##### 7 启动守护程序 {#start_up_the_daemons}
 
@@ -166,7 +160,7 @@ make install
 shell> zabbix_server
 ```
 
-确保您的系统允许分配36MB（或更多）的共享内存，否则服务器可能无法启动，您将在服务器日志文件中看到“无法为&lt;缓存类型&gt;分配共享内存”。这可能发生在FreeBSD，Solaris 8上。
+确保您的系统允许分配36MB（或更多）的共享内存，否则服务器可能无法启动，您将在服务器日志文件中看到“ Cannot allocate shared memory for&lt;type of cache&gt;” \(无法为&lt;缓存类型&gt;分配共享内存\)。这可能发生在FreeBSD，Solaris 8上。
 
 请参见本页底部的[“另请参见”](https://www.zabbix.com/documentation/3.2/manual/installation/install#see_also)一节，了解如何配置共享内存。
 
@@ -176,7 +170,7 @@ shell> zabbix_server
 shell> zabbix_agentd
 ```
 
-确保您的系统允许分配2MB的共享内存，否则代理可能无法启动，您将在代理日志文件中看到“无法为收集器分配共享内存”。这可能发生在Solaris 8上。
+确保您的系统允许分配2MB的共享内存，否则代理可能无法启动，您将在代理日志文件中看到“ Cannot allocate shared memory for collector.\(无法为收集器分配共享内存\)”。这可能发生在Solaris 8上。
 
 如果已安装Zabbix代理，请运行zabbix\_proxy。
 
@@ -188,60 +182,42 @@ shell> zabbix_proxy
 
 ##### 复制PHP文件 {#copying_php_files}
 
-Zabbix前端是用PHP编写的，因此运行它需要PHP支持的webserver。安装是通过简单地将PHP文件从frontends / php复制到webserverHTML文档目录。
+Zabbix前端是用PHP编写的，因此运行它需要PHP支持的webserver。安装是通过简单地将PHP文件从frontends/php 复制到webserverHTML文档目录。
 
 Apache Web服务器的HTML文档目录的常见位置包括：
 
-* / usr / local / apache2 / htdocs（从源代码安装Apache时的默认目录）
-* / srv / www / htdocs（OpenSUSE，SLES）
-* / var / www / html（Fedora，RHEL，CentOS）
-* / var / www（Debian，Ubuntu）
+* /usr/local/apache2/htdocs（从源代码安装Apache时的默认目录）
+* /srv/www/htdocs（OpenSUSE，SLES）
+* /var/www/html（Fedora，RHEL，CentOS）
+* /var/www（Debian，Ubuntu）
 
 建议使用子目录而不是HTML根目录。要创建子目录并将Zabbix前端文件复制到其中，请执行以下命令，替换实际目录：
 
 ```
-mkdir 
-<
-htdocs
->
- / zabbix
+mkdir <htdocs>/zabbix
 
-cd frontends / php
+cd frontends/php
 
-cp -a。
-<
-htdocs
->
- / zabbix
+cp -a . <htdocs>/zabbix
 ```
 
 如果从SVN安装并计划使用除英语以外的任何其他语言，则必须生成翻译文件。为此，请运行：
 
 ```
-locale / make_mo.sh
+locale/make_mo.sh
 ```
 
 `msgfmt`从gettext包实用程序是必需的。
 
 此外，要使用除英语以外的任何其他语言，其语言环境应安装在Web服务器上。
 
-有关详细信息，
-
-[请参阅](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile#see_also)
-
-“用户配置文件”页面中
-
-的
-
-[“参见”](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile#see_also)
-
-部分，了解如何安装。
+有关详细信息，[请参阅](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile#see_also)用户配置文件”页面中的[“参见”](https://www.zabbix.com/documentation/3.2/manual/web_interface/user_profile#see_also)部分，了解如何安装。
 
 ##### 安装前端 {#installing_frontend}
 
 ##### 步骤1 {#step_1}
 
-在浏览器中，打开ZabbixURL：http：// &lt;server\_ip\_or\_name&gt; / zabbix
+在浏览器中，打开ZabbixURL：http://&lt;server\_ip\_or\_name&gt;/zabbix
 
 您应该看到前端安装向导的第一个屏幕。
 
