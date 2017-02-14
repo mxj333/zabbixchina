@@ -249,7 +249,7 @@ locale/make_mo.sh
 | _xmlwriter_ |  | php-xmlwriter |
 | _xmlreader_ |  | php-xmlreader |
 | _ctype_ |  | php-ctype |
-| _会话_ |  | php会话 |
+| session |  | php会话 |
 | _gettext_ |  | php-gettext 从Zabbix 2.2.1开始，PHP的gettext扩展不是安装Zabbix的强制性要求。如果没有安装gettext，前端将照常工作，但是，翻译将不可用。 |
 
 可选的先决条件也可以存在于列表中。失败的可选先决条件显示为橙色，并显示_警告_状态。使用失败的可选先决条件，设置可以继续。
