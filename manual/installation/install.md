@@ -243,7 +243,7 @@ locale/make_mo.sh
 | _mbstring_ |  | php-mbstring |
 | _PHP mbstring.func\_overload选项_ | 必须禁用 | 在php.ini中： mbstring.func\_overload = 0 |
 | _PHP always\_populate\_raw\_post\_data选项_ | 必须禁用 | 仅对PHP 5.6.0或更高版本有效。 在php.ini： always\_populate\_raw\_post\_data = -1 |
-| _插座_ |  | php-net-socket。需要用户脚本支持。 |
+| sockets |  | php-net-socket。需要用户脚本支持。 |
 | _gd_ | 2.0以上 | php-gd。PHP GD扩展必须支持PNG图像（_--with-png-dir_），JPEG（--_with-jpeg-dir_）和FreeType 2（--_with-freetype-dir_）。 |
 | _libxml_ | 2.6.15 | php-xml或php5-dom |
 | _xmlwriter_ |  | php-xmlwriter |
