@@ -65,15 +65,25 @@ Zabbix前端安装不需要单独的用户帐户。
 
 --with-libcurl 和 --with-libxml2 配置选项是虚拟机监视所必需的，从Zabbix 2.2.0开始支持。
 
+注意  ：
+
+编译源码是最容易发生错误的，常见的就是“ Not found XXX library”，下面是常见情况的解决方法：
+
+Not found mysqlclient library : 安装mysql-devel   apt-get install libmysqld-dev
+
+LIBXML2 library ： 安装 libxml2-devel sudo apt-get install libxml2-dev 
+
+Invalid Net-SNMP directory - unable to find net-snmp-config
 
 
-注意  ：Ubuntu下的mysql-devel开发包则不是，而是叫：**libmysqld-dev**。
+
+Ubuntu下的mysql-devel开发包则不是，而是叫：**libmysqld-dev**。
 
 所以在Ubuntu下安装**mysql的开发包**，则是用命令：
+
 ```
 sudo apt-get install libmysqld-dev
 ```
-
 
 要配置Zabbix服务器（使用PostgreSQL）的源，您可以运行：
 
