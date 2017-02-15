@@ -155,9 +155,7 @@ mysql> quit;
 然后导入初始模式和数据。系统将提示您输入新创建的密码。
 
 ```
-
 zcat /usr/share/zabbix-server-mysql/{schema,images,data}.sql.gz | mysql -uzabbix -p zabbix
-
 ```
 
 #### Zabbix服务器的数据库配置 {#database_configuration_for_zabbix_server1}
@@ -173,10 +171,7 @@ DBName = zabbix
 
 DBUser = zabbix
 
-DBPassword = 
-<
-password
->
+DBPassword = <password>
 ```
 
 #### 启动Zabbix服务器进程 {#starting_zabbix_server_process1}
