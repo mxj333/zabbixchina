@@ -201,7 +201,7 @@ php_value max_input_time 300
 
 php_value always_populate_raw_post_data -1
 
-＃php_value date.timezone欧洲/里加
+＃php_value date.timezone Aisa/Shanghai
 ```
 
 之后，您需要重新启动Apache Web服务器：
