@@ -70,34 +70,36 @@ Zabbix前端安装不需要单独的用户帐户。
 编译源码是最容易发生错误的，常见的就是“ Not found XXX library”，下面是常见情况的解决方法：
 
 1. **  
-   configure: error: MySQL library not found**  
-     the problem is not installed mysql-devel  
-     \#apt-get install  libghc6-hsql-mysql-dev \(ubuntu \)
+   configure: error: MySQL library not found**  
+     the problem is not installed mysql-devel  
+     \#apt-get install  libghc6-hsql-mysql-dev \(ubuntu \)
 
-2. **configure: error: Jabber library not found**  
-     the problem is not installed jabber lib  
-     \#apt-get install libphp-jabber  
-     \#apt-get install libnet-jabber-loudmouth-perl  
-     \#apt-get install jabber-dev  
-     \#apt-get install libiksemel-dev  \(\* this packet important\)
+2. **configure: error: Jabber library not found**  
+     the problem is not installed jabber lib  
+     \#apt-get install libphp-jabber  
+     \#apt-get install libnet-jabber-loudmouth-perl  
+     \#apt-get install jabber-dev  
+     \#apt-get install libiksemel-dev  \(\* this packet important\)
 
-3. **configure: error: Not found curl Library**  
-     the problem is not installed libcurl4-openssl-dev  
-     \#apt-get install libcurl4-openssl-dev
+3. **configure: error: Not found curl Library**  
+     the problem is not installed libcurl4-openssl-dev  
+     \#apt-get install libcurl4-openssl-dev
 
-4. **configure: error : Not found NET-SNMP library**  
-     \#apt-get install libsnmp-dev  
-     \#apt-get install snmp
+4. **configure: error : Not found NET-SNMP library**  
+     \#apt-get install libsnmp-dev  
+     \#apt-get install snmp
 
-5. **Invalid OPENIPMI directory - unable to find ipmiif.h**
+5. **Invalid OPENIPMI directory - unable to find ipmiif.h**
 
-         apt-get install openipmi openipmitool freeipmi-tools libopenipmi-dev
+   ```
+     apt-get install libopenipmi-dev
+   ```
 
-   **6.msgfmt: command not found**
+   **6.msgfmt: command not found**
 
-        apt-get install gettext
-
-
+   ```
+    apt-get install gettext
+   ```
 
 Not found mysqlclient library : 安装mysql-devel
 
