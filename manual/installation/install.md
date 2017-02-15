@@ -80,16 +80,9 @@ sudo apt-get install libxml2-dev
 
 Invalid Net-SNMP directory - unable to find net-snmp-config 安装 net-snmp-devel
 ```
-sudo apt-get install net-snmp
+sudo apt-get install snmpd
 ```
 
-Ubuntu下的mysql-devel开发包则不是，而是叫：**libmysqld-dev**。
-
-所以在Ubuntu下安装**mysql的开发包**，则是用命令：
-
-```
-sudo apt-get install libmysqld-dev
-```
 
 要配置Zabbix服务器（使用PostgreSQL）的源，您可以运行：
 
