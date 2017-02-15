@@ -1,24 +1,6 @@
-### 2服务器安装与MySQL数据库 {#server_installation_with_mysql_database}
+### 2 服务器安装与MySQL数据库 {#server_installation_with_mysql_database}
 
-
-
-
-
-这是很好的做法设置
-
-_innodb\_file\_per\_table_
-
-选项
-
-[启用](https://dev.mysql.com/doc/refman/5.6/en/tablespace-enabling.html)
-
-在MySQL。
-
-在继续之前检查此设置。
-
-
-
-
+这是很好的做法设置 _innodb\_file\_per\_table _选项 [启用](https://dev.mysql.com/doc/refman/5.6/en/tablespace-enabling.html)在MySQL。在继续之前检查此设置。
 
 ### 红帽企业Linux / CentOS {#red_hat_enterprise_linuxcentos}
 
@@ -139,10 +121,6 @@ php_value always_populate_raw_post_data -1
 
 现在您可以继续[前端安装步骤](https://www.zabbix.com/documentation/3.2/manual/installation/install#installing_frontend)，这将允许您访问您新安装的Zabbix。
 
-
-
-
-
 Zabbix官方存储库为RHEL提供fping，iksemel，libssh2软件包。
 
 这些软件包位于
@@ -150,10 +128,6 @@ Zabbix官方存储库为RHEL提供fping，iksemel，libssh2软件包。
 [_不受支持的_](http://repo.zabbix.com/non-supported/)
 
 目录中。
-
-
-
-
 
 ---
 
@@ -172,35 +146,16 @@ Zabbix官方存储库为RHEL提供fping，iksemel，libssh2软件包。
 通过以下命令在MySQL上创建Zabbix数据库和用户，其中&lt;root\_password&gt;应用`shell> mysql -uroot -p12345`数据库（包括撇号：）上的zabbix用户的实际root密码（例如）和&lt;password&gt;替换为新密码`…identified by '67890';`：
 
 ```
-shell
->
- mysql -uroot -p 
-<
-root_password
->
-
-mysql
->
- create database zabbix字符集utf8 collat​​e utf8_bin;
-
-mysql
->
-授予zabbix上的所有权限* to zabbix @ localhost由'
-<
-password
->
-'标识;
-
-mysql
->
- quit;
+shell> mysql -uroot -p<root_password>
+mysql> create database zabbix character set utf8 collate utf8_bin;
+mysql> grant all privileges on zabbix.* to zabbix@localhost identified by '<password>';
+mysql> quit;
 ```
 
 然后导入初始模式和数据。系统将提示您输入新创建的密码。
 
 ```
-＃zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | 
-mysql -uzabbix -p zabbix
+zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -p zabbix
 ```
 
 #### Zabbix服务器的数据库配置 {#database_configuration_for_zabbix_server1}
