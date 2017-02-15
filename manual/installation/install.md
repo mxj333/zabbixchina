@@ -82,7 +82,7 @@ Invalid Net-SNMP directory - unable to find net-snmp-config 安装 net-snmp-deve
 ```
 sudo apt-get install snmpd
 ```
-
+Invalid OPENIPMI directory - unable to find ipmiif.h 安装 
 
 要配置Zabbix服务器（使用PostgreSQL）的源，您可以运行：
 
