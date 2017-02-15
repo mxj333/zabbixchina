@@ -147,7 +147,7 @@ Zabbix官方存储库为RHEL提供fping，iksemel，libssh2软件包。
 
 ```
 shell> mysql -uroot -p<root_password>
-mysql> create database zabbix character set utf8 collate utf8_bin;
+mysql> create database zabbix character set utf8 collate utf8_general_ci;
 mysql> grant all privileges on zabbix.* to zabbix@localhost identified by '<password>';
 mysql> quit;
 ```
@@ -155,7 +155,9 @@ mysql> quit;
 然后导入初始模式和数据。系统将提示您输入新创建的密码。
 
 ```
-zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -p zabbix
+
+zcat /usr/share/zabbix-server-mysql/{schema,images,data}.sql.gz | mysql -uzabbix -p zabbix
+
 ```
 
 #### Zabbix服务器的数据库配置 {#database_configuration_for_zabbix_server1}
