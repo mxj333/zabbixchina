@@ -69,13 +69,19 @@ Zabbix前端安装不需要单独的用户帐户。
 
 编译源码是最容易发生错误的，常见的就是“ Not found XXX library”，下面是常见情况的解决方法：
 
-Not found mysqlclient library : 安装mysql-devel   apt-get install libmysqld-dev
+Not found mysqlclient library : 安装mysql-devel   
+```
+sudo apt-get install libmysqld-dev
+```
+LIBXML2 library ： 安装 libxml2-devel 
+```
+sudo apt-get install libxml2-dev 
+```
 
-LIBXML2 library ： 安装 libxml2-devel sudo apt-get install libxml2-dev 
-
-Invalid Net-SNMP directory - unable to find net-snmp-config
-
-
+Invalid Net-SNMP directory - unable to find net-snmp-config 安装 net-snmp-devel
+```
+sudo apt-get install net-snmp
+```
 
 Ubuntu下的mysql-devel开发包则不是，而是叫：**libmysqld-dev**。
 
