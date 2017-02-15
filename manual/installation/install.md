@@ -122,6 +122,7 @@ Zabbix前端安装不需要单独的用户帐户。
 
      ```
      sudo apt-get install snmpd
+     
      ```
 
 
