@@ -195,9 +195,7 @@ Apache Web服务器的HTML文档目录的常见位置包括：
 
 ```
 mkdir <htdocs>/zabbix
-
 cd frontends/php
-
 cp -a . <htdocs>/zabbix
 ```
 
