@@ -65,6 +65,16 @@ Zabbix前端安装不需要单独的用户帐户。
 
 --with-libcurl 和 --with-libxml2 配置选项是虚拟机监视所必需的，从Zabbix 2.2.0开始支持。
 
+
+
+注意  ：Ubuntu下的mysql-devel开发包则不是，而是叫：**libmysqld-dev**。
+
+所以在Ubuntu下安装**mysql的开发包**，则是用命令：
+```
+sudo apt-get install libmysqld-dev
+```
+
+
 要配置Zabbix服务器（使用PostgreSQL）的源，您可以运行：
 
 ```
