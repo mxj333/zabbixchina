@@ -185,21 +185,66 @@ $request = array(
 ```
 
 当你运行程序时，您将收到类似下面的响应。如果您指定传递给方法的参数，你是可以得到监控主机的各种信息。请参考[官方手册](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)。
+```
+array(3) {
+  ["jsonrpc"]=>
+  string(3) "2.0"
+  ["result"]=>
+  array(2) {
+    [0]=>
+    array(3) {
+      ["hostid"]=>
+      string(5) "10084"
+      ["host"]=>
+      string(13) "Zabbix server"
+      ["interfaces"]=>
+      array(1) {
+        [0]=>
+        array(2) {
+          ["interfaceid"]=>
+          string(1) "1"
+          ["ip"]=>
+          string(9) "127.0.0.1"
+        }
+      }
+    }
+    [1]=>
+    array(3) {
+      ["hostid"]=>
+      string(5) "10105"
+      ["host"]=>
+      string(6) "LAMP01"
+      ["interfaces"]=>
+      array(2) {
+        [0]=>
+        array(2) {
+          ["interfaceid"]=>
+          string(1) "2"
+          ["ip"]=>
+          string(11) "172.16.1.20"
+        }
+        [1]=>
+        array(2) {
+          ["interfaceid"]=>
+          string(1) "3"
+          ["ip"]=>
+          string(11) "172.16.1.20"
+        }
+      }
+    }
+  }
+  ["id"]=>
+  int(1)
+}
+```
 
-PHP
 
-| 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950 | array\(3\){\["jsonrpc"\]=&gt;string\(3\)"2.0"\["result"\]=&gt;array\(2\){\[0\]=&gt;array\(3\){\["hostid"\]=&gt;string\(5\)"10084"\["host"\]=&gt;string\(13\)"Zabbix server"\["interfaces"\]=&gt;array\(1\){\[0\]=&gt;array\(2\){\["interfaceid"\]=&gt;string\(1\)"1"\["ip"\]=&gt;string\(9\)"127.0.0.1"}}}\[1\]=&gt;array\(3\){\["hostid"\]=&gt;string\(5\)"10105"\["host"\]=&gt;string\(6\)"LAMP01"\["interfaces"\]=&gt;array\(2\){\[0\]=&gt;array\(2\){\["interfaceid"\]=&gt;string\(1\)"2"\["ip"\]=&gt;string\(11\)"172.16.1.20"}\[1\]=&gt;array\(2\){\["interfaceid"\]=&gt;string\(1\)"3"\["ip"\]=&gt;string\(11\)"172.16.1.20"}}}}\["id"\]=&gt;int\(1\)} |
-| :--- | :--- |
+## ZABBIX API官方手册
 
-
-
-
-## 官方手册ZABBIX API
-
-ZABBIX API是非常广泛的官方文件。请参阅下面的详细资料。
+ZABBIX API是非常全面的官方文档。请参阅下面的详细资料。
 
 ▽的zabbix API手册  
-[https://www.zabbix.com/documentation/2.4/manual/api](https://www.zabbix.com/documentation/2.4/manual/api)
+[https://www.zabbix.com/documentation/3.2/manual/api](https://www.zabbix.com/documentation/3.2/manual/api)
 
 的zabbix API方法▽名单  
 [https://www.zabbix.com/documentation/2.4/manual/api/reference](https://www.zabbix.com/documentation/2.4/manual/api/reference)
