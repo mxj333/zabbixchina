@@ -243,13 +243,13 @@ array(3) {
 
 ZABBIX API是非常全面的官方文档。请参阅下面的详细资料。
 
-▽的zabbix API手册  
+▽zabbix API手册  
 [https://www.zabbix.com/documentation/3.2/manual/api](https://www.zabbix.com/documentation/3.2/manual/api)
 
-的zabbix API方法▽名单  
-[https://www.zabbix.com/documentation/2.4/manual/api/reference](https://www.zabbix.com/documentation/2.4/manual/api/reference)
+zabbix API方法  
+[https://www.zabbix.com/documentation/3.2/manual/api/reference](https://www.zabbix.com/documentation/3.2/manual/api/reference)
 
 ## 在结束
 
-如果你有不同的检查的zabbix API的事情，我发现在正式训练的文章。虽然当然是像需要的zabbix的认证，它很可能要牢固学习的量。
+如果你有不同的调用zabbix API的方法，我们可以共同探导，共同进步。
 
