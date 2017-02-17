@@ -77,6 +77,7 @@ https://<你的zabbix访问地址>/api_jsonrpc.php
 ```
 $url = 'https://example.com/zabbix/api_jsonrpc.php';
 $response_json = file_get_contents($url, false, $context);
+
 ```
 
 
