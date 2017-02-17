@@ -1,6 +1,6 @@
 # [如何使用的zabbix API（购置主机列表中）](https://blog.apar.jp/zabbix/3055/)
 
-使用zabbix API，从程序或命令行，你可以添加一台主机，就可以得到的监测数据。如果用自动化工具和Chef等组合的话，可能实现自动化的监视设置甚至服务器。Zabbix API接口，它们遵循[JSON-RPC 2.0](http://www.jsonrpc.org/specification)规范，使用比较简单。
+使用zabbix API，从程序或命令行，你可以添加一台主机，就可以得到的监测数据。如果用自动化工具和Chef等组合的话，可能实现自动化的监视设置甚至服务器。Zabbix API接口，它们遵循[JSON-RPC 2.0](http://www.jsonrpc.org/specification)规范，使用比较简单。  
 在这篇文章中，我们介绍的基本使用从PHP的zabbix API的。
 
 ## 版本信息采集的zabbix API
@@ -10,6 +10,7 @@
 ### 创建一个数据请求
 
 **PHP**
+
 ```
 $request = array(
     'jsonrpc'   => '2.0',
@@ -46,6 +47,7 @@ $request_json = json_encode($request);
 ### 创建HTTP流上下文
 
 它是在把数据POST到的zabbix API 时使用。在[stream\_context\_create](http://php.net/manual/ja/function.stream-context-create.php)。
+
 ```
 $opts['http'] = array(
     'method'    => 'POST',
@@ -77,13 +79,11 @@ https://<你的zabbix访问地址>/api_jsonrpc.php
 ```
 $url = 'https://example.com/zabbix/api_jsonrpc.php';
 $response_json = file_get_contents($url, false, $context);
-
 ```
-
 
 ### 响应显示
 
- APA响应将退回JSON格式。为了更容易检查内容，将显示转换为一个数组。
+APA响应将退回JSON格式。为了更容易检查内容，将显示转换为一个数组。
 
 ```
 $response = json_decode($response_json, true);
@@ -91,9 +91,10 @@ var_dump($response);
 ```
 
 总之，这将是在下面的这样的程序。基于zabbix API请求数据的方法是相同的。
+
 ```
 <?php
-// リクエストデータの作成
+// 请求数据
 $request = array(
     'jsonrpc'   => '2.0',
     'method'    => 'apiinfo.version',
@@ -101,23 +102,23 @@ $request = array(
     'auth'      => null,
     'params'    => array(),
 );
- 
-// リクエストデータを JSON 形式に変換
+
+// 数据JSON形式转换
 $request_json = json_encode($request);
- 
-// HTTPストリームコンテキストの作成
+
+// HTTP流上下文的设置
 $opts['http'] = array(
     'method'    => 'POST',
     'header'    => 'Content-Type: application/json-rpc',
     'content'   => $request_json,
 );
 $context = stream_context_create($opts);
- 
-// リクエストの実行
+
+// 获取数据
 $url = 'https://example.com/zabbix/api_jsonrpc.php';
 $response_json = file_get_contents($url, false, $context);
- 
-// レスポンスの表示
+
+// 返回数据
 $response = json_decode($response_json, true);
 var_dump($response);
 ```
@@ -135,11 +136,12 @@ array(3) {
 }
 ```
 
-##Zabbix API访问令牌
+## Zabbix API访问令牌
 
 正如我前面写的，以最常用的API的zabbix方法，你将需要访问令牌。
 
 访问需要令牌的[user.login](https://www.zabbix.com/documentation/2.4/manual/api/reference/user/login)使用的方法。调用该方法，并设置管理用户名和密码的参数。
+
 ```
 $request = array(
     'jsonrpc'   => '2.0',
@@ -155,6 +157,7 @@ $request = array(
 
 当请求数据处理与他是相同的版本采集时。  
 当你运行程序时，您将收到类似下面的响应。结果是访问令牌。
+
 ```
 array(3) {
   ["jsonrpc"]=>
@@ -171,6 +174,7 @@ array(3) {
 由于能够得到访问令牌，我们试图获取监控主机的列表。
 
 监控主机列表是[host.get](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)方法。设置访问令牌，你刚刚得到的AUTH参数。
+
 ```
 $request = array(
     'jsonrpc'   => '2.0',
@@ -185,6 +189,7 @@ $request = array(
 ```
 
 当你运行程序时，您将收到类似下面的响应。如果您指定传递给方法的参数，你是可以得到监控主机的各种信息。请参考[官方手册](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)。
+
 ```
 array(3) {
   ["jsonrpc"]=>
@@ -237,7 +242,6 @@ array(3) {
   int(1)
 }
 ```
-
 
 ## ZABBIX API官方手册
 
