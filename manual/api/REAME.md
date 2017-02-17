@@ -91,7 +91,36 @@ var_dump($response);
 ```
 
 总之，这将是在下面的这样的程序。基于zabbix API请求数据的方法是相同的。
-
+```
+<?php
+// リクエストデータの作成
+$request = array(
+    'jsonrpc'   => '2.0',
+    'method'    => 'apiinfo.version',
+    'id'        => 1,
+    'auth'      => null,
+    'params'    => array(),
+);
+ 
+// リクエストデータを JSON 形式に変換
+$request_json = json_encode($request);
+ 
+// HTTPストリームコンテキストの作成
+$opts['http'] = array(
+    'method'    => 'POST',
+    'header'    => 'Content-Type: application/json-rpc',
+    'content'   => $request_json,
+);
+$context = stream_context_create($opts);
+ 
+// リクエストの実行
+$url = 'https://example.com/zabbix/api_jsonrpc.php';
+$response_json = file_get_contents($url, false, $context);
+ 
+// レスポンスの表示
+$response = json_decode($response_json, true);
+var_dump($response);
+```
 
 
 
