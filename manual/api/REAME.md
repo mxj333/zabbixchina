@@ -58,7 +58,7 @@ $context = stream_context_create($opts);
 **method**  
 　是指定的HTTP方法。设置“POST”。
 
-**头**  
+**header**  
 　指定的HTTP标头。始终“内容类型：应用程序/ json- RPC”设置。
 
 **内容**  
