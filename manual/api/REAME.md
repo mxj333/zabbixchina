@@ -1,35 +1,35 @@
 # [如何使用的zabbix API（购置主机列表中）](https://blog.apar.jp/zabbix/3055/)
 
-随着的zabbix API，从程序或命令行，你可以添加一台主机，就可以得到的监测数据。当诸如自动化工具，大厨相结合，有可能实现自动化的监视设置甚至服务器。有一个小深奥的图像和听到的API，但是，的zabbix API是[JSON-RPC 2.0](http://www.jsonrpc.org/specification)似乎是因为他们顺应了简单的规范，它使用比较简单。在这项研究中，我们介绍的基本使用从PHP的zabbix API的。
+使用zabbix API，从程序或命令行，你可以添加一台主机，就可以得到的监测数据。如果用自动化工具和Chef等组合的话，可能实现自动化的监视设置甚至服务器。Zabbix API接口，它们遵循[JSON-RPC 2.0](http://www.jsonrpc.org/specification)规范，使用比较简单。
+在这篇文章中，我们介绍的基本使用从PHP的zabbix API的。
 
-
-
-## 版本信息采集的zabbix API的
+## 版本信息采集的zabbix API
 
 首先，以确认的基本要求和方法在JSON-RPC 2.0的反应，试图得到一个版本的zabbix API的。
 
 ### 创建一个数据请求
 
-
-
-PHP
-
-| 1234567 | $request=array\('jsonrpc'=&gt;'2.0','method'=&gt;'apiinfo.version','id'=&gt;1,'auth'=&gt;null,'params'=&gt;array\(\),\); |
-| :--- | :--- |
-
-
-
+**PHP**
+```
+$request = array(
+    'jsonrpc'   => '2.0',
+    'method'    => 'apiinfo.version',
+    'id'        => 1,
+    'auth'      => null,
+    'params'    => array(),
+);
+```
 
 **jsonrpc**  
 　指定JSON-RPC的协议版本。此参数始终设置为“2.0”。
 
-**方法**  
-[的zabbix API方法](https://www.zabbix.com/documentation/2.4/manual/api/reference)指定。这一次，以获得API版本[apiinfo.version](https://www.zabbix.com/documentation/2.4/manual/api/reference/apiinfo/version)设置方法。
+**method**  
+指定[zabbix API方法](https://www.zabbix.com/documentation/2.4/manual/api/reference)。例如，获得API版本[apiinfo.version](https://www.zabbix.com/documentation/2.4/manual/api/reference/apiinfo/version) 设置方法。
 
-**标识**  
-　值在这里指定，因为它也是在响应将被返回。用于识别多个请求和响应。请求会如果它是一个来可被设定为“1”。
+**id**  
+　标识值在这里指定，因为它也是在响应将被返回。用于识别多个请求和响应。请求会如果它是一个来可被设定为“1”。
 
-**AUTH**  
+**auth**  
 　指定访问令牌。在大多数的方法，这个参数是强制性的，但你已经设置了空，因此你不需要只是apiinfo.version方法来获取版本。
 
 **PARAMS**  
@@ -37,29 +37,25 @@ PHP
 
 ### 转换JSON格式的请求数据
 
-数据与API的zabbix进行交换，使您在使用JSON格式，它已经转换成JSON格式。
+数据与API的zabbix进行交换时使用JSON格式，所以要转换成JSON格式。
 
-PHP
-
-| 1 | $request\_json=json\_encode\($request\); |
-| :--- | :--- |
-
-
-
+```
+$request_json = json_encode($request);
+```
 
 ### 创建HTTP流上下文
 
-它是在准备POST发送到的zabbix API。PHP在[stream\_context\_create](http://php.net/manual/ja/function.stream-context-create.php)方便使用。
+它是在把数据POST到的zabbix API 时使用。在[stream\_context\_create](http://php.net/manual/ja/function.stream-context-create.php)。
+```
+$opts['http'] = array(
+    'method'    => 'POST',
+    'header'    => 'Content-Type: application/json-rpc',
+    'content'   => $request_json,
+);
+$context = stream_context_create($opts);
+```
 
-PHP
-
-| 123456 | $opts\['http'\]=array\('method'=&gt;'POST','header'=&gt;'Content-Type: application/json-rpc','content'=&gt;$request\_json,\);$context=stream\_context\_create\($opts\); |
-| :--- | :--- |
-
-
-
-
-**方法**  
+**method**  
 　是指定的HTTP方法。设置“POST”。
 
 **头**  
