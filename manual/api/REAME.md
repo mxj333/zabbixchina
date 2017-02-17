@@ -122,59 +122,69 @@ $response = json_decode($response_json, true);
 var_dump($response);
 ```
 
-
-
-
 当你运行程序时，你将看到类似下面的响应。结果是的zabbix API的版本。还可以保证它返回相同的“1”，并要求的ID。
 
-PHP
+```
+array(3) {
+  ["jsonrpc"]=>
+  string(3) "2.0"
+  ["result"]=>
+  string(5) "2.4.2"
+  ["id"]=>
+  int(1)
+}
+```
 
-| 12345678 | array\(3\){\["jsonrpc"\]=&gt;string\(3\)"2.0"\["result"\]=&gt;string\(5\)"2.4.2"\["id"\]=&gt;int\(1\)} |
-| :--- | :--- |
-
-
-
-
-## 的zabbix API访问令牌的收购
+##Zabbix API访问令牌
 
 正如我前面写的，以最常用的API的zabbix方法，你将需要访问令牌。
 
-访问令牌的收购[user.login](https://www.zabbix.com/documentation/2.4/manual/api/reference/user/login)使用的方法。传递到方法，并设置管理用户名和密码的参数。
+访问需要令牌的[user.login](https://www.zabbix.com/documentation/2.4/manual/api/reference/user/login)使用的方法。调用该方法，并设置管理用户名和密码的参数。
+```
+$request = array(
+    'jsonrpc'   => '2.0',
+    'method'    => 'user.login',
+    'params'    => array(
+        'user'      => 'Admin',　//用户名
+        'password'  => 'zabbix',　//密码
+    ),
+    'id'        => 1,
+    'auth'      => null,
+);
+```
 
-PHP
-
-| 12345678910 | $request=array\('jsonrpc'=&gt;'2.0','method'=&gt;'user.login','params'=&gt;array\('user'=&gt;'Admin',　←管理ユーザ名'password'=&gt;'zabbix',　←パスワード\),'id'=&gt;1,'auth'=&gt;null,\); |
-| :--- | :--- |
-
-
-
-
-比请求数据处理其他是相同的版本采集时。  
+当请求数据处理与他是相同的版本采集时。  
 当你运行程序时，您将收到类似下面的响应。结果是访问令牌。
-
-PHP
-
-| 12345678 | array\(3\){\["jsonrpc"\]=&gt;string\(3\)"2.0"\["result"\]=&gt;string\(32\)"f6ae88c261483c1ec3b6ceb0df6d7fa6"\["id"\]=&gt;int\(1\)} |
-| :--- | :--- |
-
-
-
+```
+array(3) {
+  ["jsonrpc"]=>
+  string(3) "2.0"
+  ["result"]=>
+  string(32) "f6ae88c261483c1ec3b6ceb0df6d7fa6"
+  ["id"]=>
+  int(1)
+}
+```
 
 ## 监控主机列表的收购
 
-由于访问令牌能够得到，试图让监控主机尝试的列表。
+由于能够得到访问令牌，我们试图获取监控主机的列表。
 
-监控主机列表是[host.get](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)使用的方法。设置访问令牌，你刚刚得到的AUTH参数。
+监控主机列表是[host.get](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)方法。设置访问令牌，你刚刚得到的AUTH参数。
+```
+$request = array(
+    'jsonrpc'   => '2.0',
+    'method'    => 'host.get',
+    'params'    => array(
+        'output'            => array('hostid', 'host'),
+        'selectInterfaces'  => array('interfaceid', 'ip'),
+    ),
+    'id'        => 1,
+    'auth'      => 'ddadcf12532aaf8c41edff2a13a2202e',
+);
+```
 
-PHP
-
-| 12345678910 | $request=array\('jsonrpc'=&gt;'2.0','method'=&gt;'host.get','params'=&gt;array\('output'=&gt;array\('hostid','host'\),'selectInterfaces'=&gt;array\('interfaceid','ip'\),\),'id'=&gt;1,'auth'=&gt;'ddadcf12532aaf8c41edff2a13a2202e',\); |
-| :--- | :--- |
-
-
-
-
-当你运行程序时，您将收到类似下面的响应。如果您指定传递给方法的参数，监控主机的各种信息是，你可以得到。可以指定参数[的官方手册](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)，请参考。
+当你运行程序时，您将收到类似下面的响应。如果您指定传递给方法的参数，你是可以得到监控主机的各种信息。请参考[官方手册](https://www.zabbix.com/documentation/2.4/manual/api/reference/host/get)。
 
 PHP
 
