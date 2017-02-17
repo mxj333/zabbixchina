@@ -62,22 +62,22 @@ $context = stream_context_create($opts);
 　指定的HTTP标头。始终“内容类型：应用程序/ json- RPC”设置。
 
 **header**  
-　和设置您刚刚创建JSON格式的请求数据。
+　创建JSON格式的请求数据。
 
 ### 一个请求的执行
 
 只有当发送到的zabbix API的请求。API的URL是如下。
 
-HTTPS：\[管理画面的URL\] // /api\_jsonrpc.php
+```
+https://<你的zabbix访问地址>/api_jsonrpc.php
+```
 
-当你访问令牌，因为它管理用户发送密码，我们建议您使用HTTPS。
+当你访问令牌时，因为它发送密码，我们建议您使用HTTPS。
 
-PHP
-
-| 12 | $url='https://example.com/zabbix/api\_jsonrpc.php';$response\_json=file\_get\_contents\($url,false,$context\); |
-| :--- | :--- |
-
-
+```
+$url = 'https://example.com/zabbix/api_jsonrpc.php';
+$response_json = file_get_contents($url, false, $context);
+```
 
 
 ### 响应显示
