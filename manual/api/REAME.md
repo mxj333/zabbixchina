@@ -90,8 +90,7 @@ $response = json_decode($response_json, true);
 var_dump($response);
 ```
 
-总之，这将是在下面的这样的程序。处理比“请求数据的创造”另一个是基本上任何的zabbix API的方法相同。
-
+总之，这将是在下面的这样的程序。基于zabbix API请求数据的方法是相同的。
 
 
 
