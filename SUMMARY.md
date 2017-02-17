@@ -201,7 +201,7 @@
     * [5 Page parameters](https://www.zabbix.com/documentation/3.2/manual/web_interface/page_parameters)
     * [6 Definitions](https://www.zabbix.com/documentation/3.2/manual/web_interface/definitions)
     * [7 Creating your own theme](https://www.zabbix.com/documentation/3.2/manual/web_interface/theming)
-  * [18. API](https://www.zabbix.com/documentation/3.2/manual/api)
+  * [18. API](manual/api/REAME.md)
     * [Method reference](https://www.zabbix.com/documentation/3.2/manual/api/reference)
       * [Action](https://www.zabbix.com/documentation/3.2/manual/api/reference/action)
         * [&gt; Action object](https://www.zabbix.com/documentation/3.2/manual/api/reference/action/object)
