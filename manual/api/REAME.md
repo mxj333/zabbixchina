@@ -61,7 +61,7 @@ $context = stream_context_create($opts);
 **header**  
 　指定的HTTP标头。始终“内容类型：应用程序/ json- RPC”设置。
 
-**内容**  
+**header**  
 　和设置您刚刚创建JSON格式的请求数据。
 
 ### 一个请求的执行
