@@ -76,7 +76,6 @@ https://<你的zabbix访问地址>/api_jsonrpc.php
 
 ```
 $url = 'https://example.com/zabbix/api_jsonrpc.php';
-
 $response_json = file_get_contents($url, false, $context);
 
 ```
@@ -84,7 +83,8 @@ $response_json = file_get_contents($url, false, $context);
 
 ### 响应显示
 
-JSON格式的响应将被退回。为了更容易检查的内容，并从此显示转换为一个数组。
+ APA响应将退回JSON格式。为了更容易检查内容，将显示转换为一个数组。
+
 ```
 $response = json_decode($response_json, true);
 var_dump($response);
@@ -92,10 +92,7 @@ var_dump($response);
 
 总之，这将是在下面的这样的程序。处理比“请求数据的创造”另一个是基本上任何的zabbix API的方法相同。
 
-PHP
 
-| 12345678910111213141516171819202122232425262728 | &lt;?php// リクエストデータの作成$request=array\('jsonrpc'=&gt;'2.0','method'=&gt;'apiinfo.version','id'=&gt;1,'auth'=&gt;null,'params'=&gt;array\(\),\);// リクエストデータを JSON 形式に変換$request\_json=json\_encode\($request\);// HTTPストリームコンテキストの作成$opts\['http'\]=array\('method'=&gt;'POST','header'=&gt;'Content-Type: application/json-rpc','content'=&gt;$request\_json,\);$context=stream\_context\_create\($opts\);// リクエストの実行$url='https://example.com/zabbix/api\_jsonrpc.php';$response\_json=file\_get\_contents\($url,false,$context\);// レスポンスの表示$response=json\_decode\($response\_json,true\);var\_dump\($response\); |
-| :--- | :--- |
 
 
 
