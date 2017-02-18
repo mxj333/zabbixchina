@@ -148,10 +148,10 @@ $request = array(
     'method'    => 'user.login',
     'params'    => array(
         'user'      => 'Admin',　//用户名
-        'password'  => 'zabbix',　//密码
+        'password'  => 'zabbix'　//密码
     ),
     'id'        => 1,
-    'auth'      => null,
+    'auth'      => null
 );
 ```
 
