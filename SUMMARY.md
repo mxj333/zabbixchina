@@ -128,7 +128,7 @@
   * [10. Maintenance](manual/maintenance)
   * [11. Regular expressions](manual/regular_expressions)
   * [12. Event acknowledgment](manual/acknowledges)
-  * [13. Configuration export/import](manual/xml_export_import)
+  * [13. Configuration export/import](manual/xml_export_import.md)
     * [Groups](manual/xml_export_import/groups)
     * [Hosts](manual/xml_export_import/hosts)
   * [14. Discovery](manual/discovery)
